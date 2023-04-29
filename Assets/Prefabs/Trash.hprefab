@@ -1,0 +1,40 @@
+Prefab:
+  - Entity: 17825207038824312506
+    TagComponent:
+      Tag: Trash
+    Parent: 0
+    Children:
+      []
+    PrefabComponent:
+      Prefab: 13297484110960336992
+      Entity: 17825207038824312506
+    TransformComponent:
+      Position: [0, 0.48731482, 0]
+      Rotation: [0, 0, 0]
+      Scale: [0.100000001, 0.100000001, 0.100000001]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 4732569129918337341
+      Visible: true
+    RigidBodyComponent:
+      BodyType: 1
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: false
+      IsKinematic: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006

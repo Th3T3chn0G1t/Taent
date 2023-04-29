@@ -1,0 +1,23 @@
+TriggersTreeView:
+  - Name: RootNode
+    Children:
+      - Name: Art
+        CommandID: 3296235700
+      - Name: Bell
+        CommandID: 3540602809
+      - Name: Delivery_0
+        CommandID: 4127255451
+      - Name: Delivery_1
+        CommandID: 2164775693
+      - Name: Flower
+        CommandID: 2692465900
+      - Name: Gross
+        CommandID: 1666358781
+      - Name: Music
+        CommandID: 210963790
+      - Name: Talk
+        CommandID: 1058437765
+      - Name: Title
+        CommandID: 3942078319
+      - Name: Whispers
+        CommandID: 3795284252

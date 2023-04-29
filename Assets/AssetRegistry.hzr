@@ -1,0 +1,145 @@
+Assets:
+  - Handle: 48040766894773471
+    FilePath: Scripts/Source/CharacterController.cs
+    Type: ScriptFile
+  - Handle: 88576752421356639
+    FilePath: Meshes/Default/Source/Cone.gltf
+    Type: MeshSource
+  - Handle: 305998227865240995
+    FilePath: Audio/Flower.hsoundc
+    Type: SoundConfig
+  - Handle: 330219265602136432
+    FilePath: Audio/Music/Title.wav
+    Type: Audio
+  - Handle: 649689161983795345
+    FilePath: Meshes/Default/Source/Sphere.gltf
+    Type: MeshSource
+  - Handle: 1821196734803334895
+    FilePath: Audio/Title.hsoundc
+    Type: SoundConfig
+  - Handle: 1899482482877126769
+    FilePath: Meshes/Default/Source/Plane.gltf
+    Type: MeshSource
+  - Handle: 2465437417316148417
+    FilePath: Audio/Art.hsoundc
+    Type: SoundConfig
+  - Handle: 2637088886328916556
+    FilePath: Meshes/Default/Torus.hsmesh
+    Type: StaticMesh
+  - Handle: 3099349032321886525
+    FilePath: Scenes/1.hscene
+    Type: Scene
+  - Handle: 3298081492213246593
+    FilePath: Audio/Bell.hsoundc
+    Type: SoundConfig
+  - Handle: 3430554376843419880
+    FilePath: Meshes/Default/Cone.hsmesh
+    Type: StaticMesh
+  - Handle: 3822535603038556689
+    FilePath: Meshes/Default/Plane.hsmesh
+    Type: StaticMesh
+  - Handle: 4732569129918337341
+    FilePath: Materials/Trash.hmaterial
+    Type: Material
+  - Handle: 4909832731458669445
+    FilePath: Textures/hand.jpg
+    Type: Texture
+  - Handle: 5594124308829927802
+    FilePath: Meshes/Default/Source/Cylinder.gltf
+    Type: MeshSource
+  - Handle: 5955089797737114462
+    FilePath: Materials/Test.hmaterial
+    Type: Material
+  - Handle: 5995389465387650785
+    FilePath: Textures/Package.png
+    Type: Texture
+  - Handle: 7083823260197594862
+    FilePath: Meshes/Default/Capsule.hsmesh
+    Type: StaticMesh
+  - Handle: 7196677847557844295
+    FilePath: Audio/Gross.hsoundc
+    Type: SoundConfig
+  - Handle: 7405533872213105531
+    FilePath: Materials/Eyes.hmaterial
+    Type: Material
+  - Handle: 8304426589302767852
+    FilePath: Audio/Effect/Dialogue/Speak.wav
+    Type: Audio
+  - Handle: 8742109371119358506
+    FilePath: Audio/Music/PawnWithAShotgun.wav
+    Type: Audio
+  - Handle: 9285093028124638007
+    FilePath: Audio/Music.hsoundc
+    Type: SoundConfig
+  - Handle: 10002116849142214128
+    FilePath: Scripts/Source/ClickPrompt.cs
+    Type: ScriptFile
+  - Handle: 10255734562850740226
+    FilePath: Meshes/Default/Source/Capsule.gltf
+    Type: MeshSource
+  - Handle: 11170142726520345255
+    FilePath: Meshes/Default/Cube.hsmesh
+    Type: StaticMesh
+  - Handle: 11517946035326237892
+    FilePath: Audio/Effect/Dialogue/Gross.wav
+    Type: Audio
+  - Handle: 11656868405673552679
+    FilePath: Audio/Music/Main.wav
+    Type: Audio
+  - Handle: 11760035895749239530
+    FilePath: Audio/Effect/Bell.wav
+    Type: Audio
+  - Handle: 12090914636053398633
+    FilePath: Audio/Whispers.hsoundc
+    Type: SoundConfig
+  - Handle: 12211550189320173994
+    FilePath: Audio/Effect/Dialogue/Whispers.wav
+    Type: Audio
+  - Handle: 12525089130274581215
+    FilePath: Materials/Black.hmaterial
+    Type: Material
+  - Handle: 13112290847461804274
+    FilePath: Audio/Talk.hsoundc
+    Type: SoundConfig
+  - Handle: 13514787504325667811
+    FilePath: Icon.jpg
+    Type: Texture
+  - Handle: 13635115590492364042
+    FilePath: Scripts/Source/Package.cs
+    Type: ScriptFile
+  - Handle: 13837950110613100968
+    FilePath: Meshes/Default/Source/Torus.gltf
+    Type: MeshSource
+  - Handle: 13876944083523933843
+    FilePath: Audio/Effect/Dialogue/Delivery_0.wav
+    Type: Audio
+  - Handle: 14311909528287586018
+    FilePath: Prefabs/Trash.hprefab
+    Type: Prefab
+  - Handle: 14507860759464553235
+    FilePath: Audio/Effect/Dialogue/Art.wav
+    Type: Audio
+  - Handle: 15834543368084603963
+    FilePath: Textures/Overlay.png
+    Type: Texture
+  - Handle: 15863667556555040107
+    FilePath: Audio/Effect/Dialogue/Flower.wav
+    Type: Audio
+  - Handle: 15949901026588777982
+    FilePath: Scenes/0.hscene
+    Type: Scene
+  - Handle: 16008908087906792949
+    FilePath: Meshes/Default/Source/Cube.gltf
+    Type: MeshSource
+  - Handle: 16068948380338497227
+    FilePath: Scripts/Source/Checkpoint.cs
+    Type: ScriptFile
+  - Handle: 17177150567795059870
+    FilePath: Meshes/Default/Cylinder.hsmesh
+    Type: StaticMesh
+  - Handle: 17433564804465803768
+    FilePath: Audio/Deliveries_0.hsoundc
+    Type: SoundConfig
+  - Handle: 18376327329218423629
+    FilePath: Materials/Bell.hmaterial
+    Type: Material

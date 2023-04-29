@@ -1,0 +1,4181 @@
+Scene: 0
+Entities:
+  - Entity: 179045013495218538
+    TagComponent:
+      Tag: Cube
+    Parent: 6068315954023284556
+    Children:
+      []
+    TransformComponent:
+      Position: [0.504061043, 2.14784241, 5.82935715]
+      Rotation: [0, -0, 0]
+      Scale: [0.186286435, 0.100000001, 0.745499849]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 341452642673914519
+    TagComponent:
+      Tag: Cube
+    Parent: 9883492357138117648
+    Children:
+      []
+    TransformComponent:
+      Position: [0.357893378, 0.827000022, -0.330287933]
+      Rotation: [0, -0, 0]
+      Scale: [0.0907100812, 0.0988517329, 0.0871594548]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 459184236003100064
+    TagComponent:
+      Tag: Cube
+    Parent: 7023794814768604151
+    Children:
+      []
+    TransformComponent:
+      Position: [0.357893378, 0.827000022, -0.330287933]
+      Rotation: [0, -0, 0]
+      Scale: [0.0907100812, 0.0988517329, 0.0871594548]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 460090423452624302
+    TagComponent:
+      Tag: Bell
+    Parent: 14898702822262826008
+    Children:
+      []
+    TransformComponent:
+      Position: [-0.0927351862, 0.792550206, 13.9672308]
+      Rotation: [0, 0, -0.453926086]
+      Scale: [0.191485152, 0.201169759, 0.175098121]
+    ScriptComponent:
+      ClassHandle: 2222805781
+      Name: Taent.ClickPrompt
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 18376327329218423629
+      Visible: true
+    RigidBodyComponent:
+      BodyType: 0
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: false
+      IsKinematic: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+    AudioComponent:
+      StartEvent: Gross
+      StartCommandID: 1666358781
+      PlayOnAwake: false
+      StopIfEntityDestroyed: true
+      VolumeMultiplier: 1
+      PitchMultiplier: 1
+      AutoDestroy: false
+  - Entity: 490232547075815579
+    TagComponent:
+      Tag: Cube
+    Parent: 15943430302827997943
+    Children:
+      []
+    TransformComponent:
+      Position: [0.426916242, 0.224035025, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.113720782, 3, 0.910844028]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 634764553048541532
+    TagComponent:
+      Tag: Cube
+    Parent: 6068315954023284556
+    Children:
+      []
+    TransformComponent:
+      Position: [-12.2984104, 1.28609908, 7.69714355]
+      Rotation: [3.14159298, -1.80006027e-05, 1.57079422]
+      Scale: [2.67259908, 17.1490021, 0.249999985]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 766959363838365336
+    TagComponent:
+      Tag: Text
+    Parent: 18361458181258623905
+    Children:
+      []
+    TransformComponent:
+      Position: [0.364255786, 1.17233682, -0.312142313]
+      Rotation: [0, -1.57045102, 0]
+      Scale: [0.5, 0.5, 0.5]
+    TextComponent:
+      TextString: "201\n"
+      FontHandle: 0
+      Color: [0, 0, 0, 1]
+      LineSpacing: 0
+      Kerning: 0
+      MaxWidth: 10
+  - Entity: 800644628818723840
+    TagComponent:
+      Tag: Cube
+    Parent: 6068315954023284556
+    Children:
+      []
+    TransformComponent:
+      Position: [0.20000951, 0.360296875, 4.78836775]
+      Rotation: [3.14159274, 1.56970441, 3.14159274]
+      Scale: [0.40020746, 1, 2.01839375]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 804833170226125187
+    TagComponent:
+      Tag: Text
+    Parent: 7023794814768604151
+    Children:
+      []
+    TransformComponent:
+      Position: [0.364255786, 1.17233682, -0.312142313]
+      Rotation: [0, -1.57045102, 0]
+      Scale: [0.5, 0.5, 0.5]
+    TextComponent:
+      TextString: 101
+      FontHandle: 0
+      Color: [0, 0, 0, 1]
+      LineSpacing: 0
+      Kerning: 0
+      MaxWidth: 10
+  - Entity: 848086892676084121
+    TagComponent:
+      Tag: Cube
+    Parent: 1146483725567158788
+    Children:
+      []
+    TransformComponent:
+      Position: [-0.0476784557, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.702925861, 0.359081686, 0.910844028]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 863182015957656168
+    TagComponent:
+      Tag: Cube
+    Parent: 9851229706094014947
+    Children:
+      []
+    TransformComponent:
+      Position: [0.426916242, 0.224035025, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.113720782, 3, 0.910844028]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 900761048520205364
+    TagComponent:
+      Tag: Cube
+    Parent: 6068315954023284556
+    Children:
+      []
+    TransformComponent:
+      Position: [-3.74169469, 0.655147254, 4.24443817]
+      Rotation: [0, -0, 0]
+      Scale: [0.556553125, 1.7620374, 0.196143344]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 930345727886298069
+    TagComponent:
+      Tag: Cube
+    Parent: 6068315954023284556
+    Children:
+      []
+    TransformComponent:
+      Position: [-20.7686367, 1.28612161, 7.43826389]
+      Rotation: [1.57079577, -1.80602074e-05, 1.57079422]
+      Scale: [2.67259932, 2.03672147, 0.25000003]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 1146483725567158788
+    TagComponent:
+      Tag: 204
+    Parent: 10885080999256902224
+    Children:
+      - Handle: 848086892676084121
+      - Handle: 7842057576451842219
+      - Handle: 8308411772009915138
+      - Handle: 13098248942556556077
+    TransformComponent:
+      Position: [-3.27968335, -5.87806835e-06, 25.575861]
+      Rotation: [-3.14159274, 2.38418579e-07, -3.14159274]
+      Scale: [1, 1, 1]
+    ScriptComponent:
+      ClassHandle: 4219589247
+      Name: Taent.Checkpoint
+      StoredFields:
+        - ID: 2315298374
+          Name: m_EndScene
+          Type: Scene
+          Data: 16429742185019316526
+    RigidBodyComponent:
+      BodyType: 0
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: true
+      IsKinematic: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 1476857198091847678
+    TagComponent:
+      Tag: Text
+    Parent: 3042223764459386021
+    Children:
+      []
+    TransformComponent:
+      Position: [0.364255786, 1.17233682, -0.312142313]
+      Rotation: [0, -1.57045102, 0]
+      Scale: [0.5, 0.5, 0.5]
+    TextComponent:
+      TextString: "115\n"
+      FontHandle: 0
+      Color: [0, 0, 0, 1]
+      LineSpacing: 0
+      Kerning: 0
+      MaxWidth: 10
+  - Entity: 1605772117256434182
+    TagComponent:
+      Tag: 102
+    Parent: 10885080999256902224
+    Children:
+      - Handle: 11155939536640432974
+      - Handle: 12561817235636417322
+      - Handle: 13152412581055682001
+      - Handle: 17954378752547430817
+    TransformComponent:
+      Position: [-3.27968335, 9.56415192e-07, -3.09003925]
+      Rotation: [-3.14159274, 2.38418579e-07, -3.14159274]
+      Scale: [1, 1, 1]
+    ScriptComponent:
+      ClassHandle: 4219589247
+      Name: Taent.Checkpoint
+      StoredFields:
+        - ID: 2315298374
+          Name: m_EndScene
+          Type: Scene
+          Data: 11020154673253519302
+    RigidBodyComponent:
+      BodyType: 0
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: true
+      IsKinematic: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 1643674336875783025
+    TagComponent:
+      Tag: Cube
+    Parent: 14898702822262826008
+    Children:
+      []
+    TransformComponent:
+      Position: [-0.0088577345, 0.829825878, 14.2882919]
+      Rotation: [0, -0, 0.584313631]
+      Scale: [0.198769525, 0.195466131, 0.175098121]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 4732569129918337341
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 1652734705425507342
+    TagComponent:
+      Tag: 214_pkg
+    Parent: 10885080999256902224
+    Children:
+      []
+    TransformComponent:
+      Position: [-10.3397923, 0.39605388, 6.62653446]
+      Rotation: [0, -0, 0]
+      Scale: [0.5, 0.5, 0.5]
+    ScriptComponent:
+      ClassHandle: 4051750727
+      Name: Taent.Package
+      StoredFields:
+        - ID: 3006969856
+          Name: m_Player
+          Type: Entity
+          Data: 3584380978410236239
+        - ID: 3531539911
+          Name: m_PlayerTextOverlay
+          Type: Entity
+          Data: 12380525476817526189
+        - ID: 595989146
+          Name: m_Text
+          Type: String
+          Data: "Deliver to apartment 214"
+        - ID: 2933598927
+          Name: m_Delivery
+          Type: String
+          Data: "214"
+        - ID: 1147342874
+          Name: m_Bin
+          Type: Entity
+          Data: 14898702822262826008
+        - ID: 2650149511
+          Name: m_BinLitterA
+          Type: Entity
+          Data: 14749265222351470436
+        - ID: 737059660
+          Name: m_BinLitterB
+          Type: Entity
+          Data: 11703252381908995507
+        - ID: 1374756277
+          Name: m_BinLitterC
+          Type: Entity
+          Data: 18271073833859192797
+        - ID: 3774522910
+          Name: m_LightA
+          Type: Entity
+          Data: 5447217125893462724
+        - ID: 3136826293
+          Name: m_LightB
+          Type: Entity
+          Data: 9374280836152702006
+        - ID: 705814287
+          Name: m_Wall
+          Type: Entity
+          Data: 2595619106757554327
+        - ID: 2467697620
+          Name: m_Package999
+          Type: Entity
+          Data: 17079610297711869501
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 5955089797737114462
+      Visible: true
+    RigidBodyComponent:
+      BodyType: 1
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0
+      DisableGravity: false
+      IsTrigger: false
+      IsKinematic: false
+      CollisionDetection: 1
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.5
+    AudioComponent:
+      StartEvent: ""
+      StartCommandID: 0
+      PlayOnAwake: false
+      StopIfEntityDestroyed: true
+      VolumeMultiplier: 1
+      PitchMultiplier: 1
+      AutoDestroy: false
+  - Entity: 1685252751438036630
+    TagComponent:
+      Tag: Cube
+    Parent: 14898702822262826008
+    Children:
+      []
+    TransformComponent:
+      Position: [-0.206169665, 0.833284676, 14.1483116]
+      Rotation: [0.581756771, -0, 0]
+      Scale: [0.178988785, 0.195589274, 0.194300398]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 4732569129918337341
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 1717916085766252235
+    TagComponent:
+      Tag: Cube
+    Parent: 17328133356596329604
+    Children:
+      []
+    TransformComponent:
+      Position: [0.357893378, 0.827000022, -0.330287933]
+      Rotation: [0, -0, 0]
+      Scale: [0.0907100812, 0.0988517329, 0.0871594548]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 1826044377254785997
+    TagComponent:
+      Tag: Cube
+    Parent: 5552905575652865535
+    Children:
+      []
+    TransformComponent:
+      Position: [-0.606933594, 0.200988322, -0.362617493]
+      Rotation: [-1.46376509e-14, 1.52072119e-10, 5.46333439e-14]
+      Scale: [0.797656238, 0.0329505801, 0.0956908837]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 1879664398664950892
+    TagComponent:
+      Tag: Cube
+    Parent: 6068315954023284556
+    Children:
+      []
+    TransformComponent:
+      Position: [-0.533008218, 0.360267669, 5.60025024]
+      Rotation: [0, -0, 0]
+      Scale: [0.556553125, 1, 2.01839375]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 1992552542058768163
+    TagComponent:
+      Tag: Cube
+    Parent: 14748187383859398886
+    Children:
+      []
+    TransformComponent:
+      Position: [0, -0.545951188, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.800000012, 1, 0.800000012]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 2122587196313923935
+    TagComponent:
+      Tag: Cube
+    Parent: 6068315954023284556
+    Children:
+      []
+    TransformComponent:
+      Position: [0.200135931, 0.765287161, 4.90419912]
+      Rotation: [3.14159274, 1.56970441, 3.14159274]
+      Scale: [0.556553066, 0.187855408, 2.01839375]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 2214592823676444186
+    TagComponent:
+      Tag: Text
+    Parent: 5616091793559199730
+    Children:
+      []
+    TransformComponent:
+      Position: [0.364255786, 1.17233682, -0.312142313]
+      Rotation: [0, -1.57045102, 0]
+      Scale: [0.5, 0.5, 0.5]
+    TextComponent:
+      TextString: "114\n"
+      FontHandle: 0
+      Color: [0, 0, 0, 1]
+      LineSpacing: 0
+      Kerning: 0
+      MaxWidth: 10
+  - Entity: 2395513416003292281
+    TagComponent:
+      Tag: Cube
+    Parent: 7945697411319433924
+    Children:
+      []
+    TransformComponent:
+      Position: [0.357893378, 0.827000022, -0.330287933]
+      Rotation: [0, -0, 0]
+      Scale: [0.0907100812, 0.0988517329, 0.0871594548]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 2434242998577361881
+    TagComponent:
+      Tag: Cube
+    Parent: 7205258159301719350
+    Children:
+      []
+    TransformComponent:
+      Position: [0.357893378, 0.827000022, -0.330287933]
+      Rotation: [0, -0, 0]
+      Scale: [0.0907100812, 0.0988517329, 0.0871594548]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 2441003333483490906
+    TagComponent:
+      Tag: Text
+    Parent: 12090395849826178531
+    Children:
+      []
+    TransformComponent:
+      Position: [0.364255786, 1.17233682, -0.312142313]
+      Rotation: [0, -1.57045102, 0]
+      Scale: [0.5, 0.5, 0.5]
+    TextComponent:
+      TextString: 214
+      FontHandle: 0
+      Color: [0, 0, 0, 1]
+      LineSpacing: 0
+      Kerning: 0
+      MaxWidth: 10
+  - Entity: 2533133382865025474
+    TagComponent:
+      Tag: 104_pkg
+    Parent: 10885080999256902224
+    Children:
+      []
+    TransformComponent:
+      Position: [-10.3638048, 0.414048523, 6.06591034]
+      Rotation: [0, -0, 0]
+      Scale: [0.5, 0.5, 0.5]
+    ScriptComponent:
+      ClassHandle: 4051750727
+      Name: Taent.Package
+      StoredFields:
+        - ID: 3006969856
+          Name: m_Player
+          Type: Entity
+          Data: 3584380978410236239
+        - ID: 3531539911
+          Name: m_PlayerTextOverlay
+          Type: Entity
+          Data: 12380525476817526189
+        - ID: 595989146
+          Name: m_Text
+          Type: String
+          Data: "Deliver to apartment 104"
+        - ID: 2933598927
+          Name: m_Delivery
+          Type: String
+          Data: "104"
+        - ID: 1147342874
+          Name: m_Bin
+          Type: Entity
+          Data: 14898702822262826008
+        - ID: 2650149511
+          Name: m_BinLitterA
+          Type: Entity
+          Data: 14749265222351470436
+        - ID: 737059660
+          Name: m_BinLitterB
+          Type: Entity
+          Data: 11703252381908995507
+        - ID: 1374756277
+          Name: m_BinLitterC
+          Type: Entity
+          Data: 18271073833859192797
+        - ID: 3774522910
+          Name: m_LightA
+          Type: Entity
+          Data: 5447217125893462724
+        - ID: 3136826293
+          Name: m_LightB
+          Type: Entity
+          Data: 9374280836152702006
+        - ID: 705814287
+          Name: m_Wall
+          Type: Entity
+          Data: 2595619106757554327
+        - ID: 2467697620
+          Name: m_Package999
+          Type: Entity
+          Data: 17079610297711869501
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 5955089797737114462
+      Visible: true
+    RigidBodyComponent:
+      BodyType: 1
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0
+      DisableGravity: false
+      IsTrigger: false
+      IsKinematic: false
+      CollisionDetection: 1
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.5
+    AudioComponent:
+      StartEvent: ""
+      StartCommandID: 0
+      PlayOnAwake: false
+      StopIfEntityDestroyed: true
+      VolumeMultiplier: 1
+      PitchMultiplier: 1
+      AutoDestroy: false
+  - Entity: 2595619106757554327
+    TagComponent:
+      Tag: BackWall
+    Parent: 6068315954023284556
+    Children:
+      - Handle: 13998386292485713218
+    TransformComponent:
+      Position: [-10.9883461, 1.28612268, 5.88356447]
+      Rotation: [7.85349417, -1.80006027e-05, 1.57079422]
+      Scale: [2.67259884, 4.91004801, 0.25]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 2744873581465010852
+    TagComponent:
+      Tag: Cube
+    Parent: 6068315954023284556
+    Children:
+      []
+    TransformComponent:
+      Position: [-3.85341334, 1.28662598, -10.3624439]
+      Rotation: [14.1371679, -1.80006027e-05, 1.57079422]
+      Scale: [2.67259908, 17.1490021, 0.249999985]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 2922435988769302378
+    TagComponent:
+      Tag: Overlay
+    Parent: 10844045287998289682
+    Children:
+      []
+    TransformComponent:
+      Position: [0, 0, -0.200000003]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      Texture: 15834543368084603963
+      TilingFactor: 1
+      UVStart: [0, 0]
+      UVEnd: [1, 1]
+  - Entity: 2987660226792394792
+    TagComponent:
+      Tag: Empty Entity
+    Parent: 0
+    Children:
+      - Handle: 5447217125893462724
+      - Handle: 9374280836152702006
+    TransformComponent:
+      Position: [-1.52128172, 0, 13.6259546]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+  - Entity: 3042223764459386021
+    TagComponent:
+      Tag: 115
+    Parent: 10885080999256902224
+    Children:
+      - Handle: 7332319129329991242
+      - Handle: 7902201060849457953
+      - Handle: 3300809535349491837
+      - Handle: 1476857198091847678
+    TransformComponent:
+      Position: [0.0244631581, 2.10333997e-06, -14.3345375]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    ScriptComponent:
+      ClassHandle: 4219589247
+      Name: Taent.Checkpoint
+      StoredFields:
+        - ID: 2315298374
+          Name: m_EndScene
+          Type: Scene
+          Data: 6407249529732626663
+    RigidBodyComponent:
+      BodyType: 0
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: true
+      IsKinematic: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 3299932292811476683
+    TagComponent:
+      Tag: Cube
+    Parent: 8700102880248734252
+    Children:
+      []
+    TransformComponent:
+      Position: [0.426916242, 0.224035025, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.113720782, 3, 0.910844028]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 3300809535349491837
+    TagComponent:
+      Tag: Cube
+    Parent: 3042223764459386021
+    Children:
+      []
+    TransformComponent:
+      Position: [0.357893378, 0.827000022, -0.330287933]
+      Rotation: [0, -0, 0]
+      Scale: [0.0907100812, 0.0988517329, 0.0871594548]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 3370703464535388028
+    TagComponent:
+      Tag: Cylinder
+    Parent: 6068315954023284556
+    Children:
+      []
+    TransformComponent:
+      Position: [-0.016498182, 0.900533319, -5.3465991]
+      Rotation: [2.9440484, -1.24264944, -2.33683467]
+      Scale: [0.0500000007, 0.0986478403, 0.0500000007]
+    StaticMeshComponent:
+      AssetID: 17177150567795059870
+      MaterialTable:
+        0: 0
+      Visible: true
+    MeshColliderComponent:
+      ColliderHandle: 656698437894851214
+      UseSharedShape: false
+      Friction: 0.5
+      Restitution: 0.150000006
+      CollisionComplexity: ""
+  - Entity: 3584380978410236239
+    TagComponent:
+      Tag: Player
+    Parent: 0
+    Children:
+      - Handle: 10844045287998289682
+    TransformComponent:
+      Position: [-7.75615501, 0.972502887, 6.23059368]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    ScriptComponent:
+      ClassHandle: 3599272874
+      Name: Taent.CharacterController
+      StoredFields:
+        - ID: 3560501422
+          Name: MouseSensitivity
+          Type: Float
+          Data: 0.100000001
+        - ID: 2003558992
+          Name: MovementForce
+          Type: Float
+          Data: 4
+        - ID: 1780452417
+          Name: JumpForce
+          Type: Float
+          Data: 7.5
+        - ID: 3920225572
+          Name: AnchorForce
+          Type: Float
+          Data: 100
+        - ID: 1229735599
+          Name: AnchorEpsilon
+          Type: Float
+          Data: 0.100000001
+        - ID: 2810876835
+          Name: AnchorMax
+          Type: Float
+          Data: 5
+        - ID: 4006364103
+          Name: MaxSpeed
+          Type: Float
+          Data: 5
+        - ID: 3136623662
+          Name: OnGroundEpsilonBuffer
+          Type: Float
+          Data: 0
+        - ID: 827014330
+          Name: PickupTorque
+          Type: Float
+          Data: 5
+        - ID: 184237348
+          Name: m_CameraEntity
+          Type: Entity
+          Data: 10844045287998289682
+        - ID: 2258221846
+          Name: m_Checkpoint
+          Type: Vector3
+          Data: [-0.295174539, 0.227082849, -9.2949667]
+        - ID: 637220207
+          Name: m_Anchor
+          Type: Entity
+          Data: 10203784497026758493
+    RigidBodyComponent:
+      BodyType: 1
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: false
+      IsKinematic: false
+      CollisionDetection: 1
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 56
+    CapsuleColliderComponent:
+      Radius: 0.25
+      HalfHeight: 0.5
+      Offset: [0, 0, 0]
+      Friction: 0
+      Restitution: 0.150000006
+    AudioComponent:
+      StartEvent: Music
+      StartCommandID: 210963790
+      PlayOnAwake: true
+      StopIfEntityDestroyed: true
+      VolumeMultiplier: 1
+      PitchMultiplier: 1
+      AutoDestroy: false
+  - Entity: 3627506448041987903
+    TagComponent:
+      Tag: Cube
+    Parent: 13707307056887409181
+    Children:
+      []
+    TransformComponent:
+      Position: [0.357893378, 0.827000022, -0.330287933]
+      Rotation: [0, -0, 0]
+      Scale: [0.0907100812, 0.0988517329, 0.0871594548]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 3703995719945904180
+    TagComponent:
+      Tag: Cube
+    Parent: 6068315954023284556
+    Children:
+      []
+    TransformComponent:
+      Position: [-20.7686367, 1.28617561, 4.48739052]
+      Rotation: [1.57079577, -1.80602074e-05, 1.57079422]
+      Scale: [2.67259932, 2.03672147, 0.25000003]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 3753472143381892265
+    TagComponent:
+      Tag: Cube
+    Parent: 9851229706094014947
+    Children:
+      []
+    TransformComponent:
+      Position: [-0.0476784557, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.702925861, 0.359081686, 0.910844028]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 3822988835039908267
+    TagComponent:
+      Tag: Cube
+    Parent: 6068315954023284556
+    Children:
+      []
+    TransformComponent:
+      Position: [-3.85338926, 1.28614855, 16.1738987]
+      Rotation: [14.1371679, -1.80006027e-05, 1.57079422]
+      Scale: [2.67259908, 17.1490021, 0.249999985]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 3857927390562230926
+    TagComponent:
+      Tag: Floor
+    Parent: 11543305288341814524
+    Children:
+      []
+    TransformComponent:
+      Position: [3.16500664e-05, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [446.517792, 0.25, 214.981613]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+    MeshColliderComponent:
+      ColliderHandle: 12282220902341222390
+      UseSharedShape: false
+      Friction: 0.5
+      Restitution: 0.150000006
+      CollisionComplexity: ""
+  - Entity: 4096662107526455553
+    TagComponent:
+      Tag: Cube
+    Parent: 17328133356596329604
+    Children:
+      []
+    TransformComponent:
+      Position: [0.426916242, 0.224035025, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.113720782, 3, 0.910844028]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 4185613543857560472
+    TagComponent:
+      Tag: Text
+    Parent: 12091903592243603433
+    Children:
+      []
+    TransformComponent:
+      Position: [0.364255786, 1.17233682, -0.312142313]
+      Rotation: [0, -1.57045102, 0]
+      Scale: [0.5, 0.5, 0.5]
+    TextComponent:
+      TextString: "211\n"
+      FontHandle: 0
+      Color: [0, 0, 0, 1]
+      LineSpacing: 0
+      Kerning: 0
+      MaxWidth: 10
+  - Entity: 4292622059685672521
+    TagComponent:
+      Tag: Cube
+    Parent: 7023794814768604151
+    Children:
+      []
+    TransformComponent:
+      Position: [0.426916242, 0.224035025, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.113720782, 3, 0.910844028]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 4469360616111392691
+    TagComponent:
+      Tag: Cube
+    Parent: 11539685788526520884
+    Children:
+      []
+    TransformComponent:
+      Position: [0.426916242, 0.224035025, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.113720782, 3, 0.910844028]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 4488187600493267186
+    TagComponent:
+      Tag: Point Light
+    Parent: 14748187383859398886
+    Children:
+      []
+    TransformComponent:
+      Position: [0, 0.0634275079, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    PointLightComponent:
+      Radiance: [1, 0, 0]
+      Intensity: 0.0500000007
+      CastShadows: true
+      SoftShadows: true
+      MinRadius: 1
+      Radius: 10
+      LightSize: 0.5
+      Falloff: 1
+  - Entity: 4606073626768110092
+    TagComponent:
+      Tag: Cube
+    Parent: 7945697411319433924
+    Children:
+      []
+    TransformComponent:
+      Position: [-0.0476784557, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.702925861, 0.359081686, 0.910844028]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 4608972907308615681
+    TagComponent:
+      Tag: Text
+    Parent: 7945697411319433924
+    Children:
+      []
+    TransformComponent:
+      Position: [0.364255786, 1.17233682, -0.312142313]
+      Rotation: [0, -1.57045102, 0]
+      Scale: [0.5, 0.5, 0.5]
+    TextComponent:
+      TextString: 111
+      FontHandle: 0
+      Color: [0, 0, 0, 1]
+      LineSpacing: 0
+      Kerning: 0
+      MaxWidth: 10
+  - Entity: 4977996604860089595
+    TagComponent:
+      Tag: Text
+    Parent: 17944850922749464404
+    Children:
+      []
+    TransformComponent:
+      Position: [-0.50164175, 0.0319473743, -0.355164051]
+      Rotation: [0, -1.57079637, 0]
+      Scale: [0.100000001, 0.100000001, 0.100000001]
+    TextComponent:
+      TextString: People who don't pay their rent burn in hell forever!
+      FontHandle: 0
+      Color: [0, 0, 0, 1]
+      LineSpacing: 0
+      Kerning: 0
+      MaxWidth: 6.80000019
+  - Entity: 5062970964930988177
+    TagComponent:
+      Tag: Cone
+    Parent: 6068315954023284556
+    Children:
+      []
+    TransformComponent:
+      Position: [-0.0394683033, 0.950802386, -5.35578299]
+      Rotation: [3.13832808, -0.147221982, 0.405716181]
+      Scale: [0.200000003, 0.200000003, 0.200000003]
+    ScriptComponent:
+      ClassHandle: 2222805781
+      Name: Taent.ClickPrompt
+    StaticMeshComponent:
+      AssetID: 3430554376843419880
+      MaterialTable:
+        0: 18376327329218423629
+      Visible: true
+    MeshColliderComponent:
+      ColliderHandle: 14590415737831717037
+      UseSharedShape: false
+      Friction: 0.5
+      Restitution: 0.150000006
+      CollisionComplexity: ""
+    AudioComponent:
+      StartEvent: Flower
+      StartCommandID: 2692465900
+      PlayOnAwake: false
+      StopIfEntityDestroyed: true
+      VolumeMultiplier: 1
+      PitchMultiplier: 1
+      AutoDestroy: false
+  - Entity: 5082573133892757762
+    TagComponent:
+      Tag: Cube
+    Parent: 14898702822262826008
+    Children:
+      []
+    TransformComponent:
+      Position: [0.141166955, 0.829824746, 13.965126]
+      Rotation: [0, -0, 0.46501115]
+      Scale: [0.192060709, 0.200734392, 0.175098121]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 4732569129918337341
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 5343342653560698513
+    TagComponent:
+      Tag: Cube
+    Parent: 5814137022684837192
+    Children:
+      []
+    TransformComponent:
+      Position: [0.426916242, 0.224035025, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.113720782, 3, 0.910844028]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 5447217125893462724
+    TagComponent:
+      Tag: LightA
+    Parent: 2987660226792394792
+    Children:
+      []
+    TransformComponent:
+      Position: [-7.169209, 2.0534761, -7.68396854]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    PointLightComponent:
+      Radiance: [1, 1, 1]
+      Intensity: 0.25
+      CastShadows: true
+      SoftShadows: true
+      MinRadius: 1
+      Radius: 22
+      LightSize: 0.5
+      Falloff: 1
+  - Entity: 5552905575652865535
+    TagComponent:
+      Tag: Cube
+    Parent: 10489256498447338563
+    Children:
+      - Handle: 1826044377254785997
+      - Handle: 10874607193709679619
+    TransformComponent:
+      Position: [0.818725586, 0.224031448, 0.285447121]
+      Rotation: [0, -1.33372128, 0]
+      Scale: [0.113720782, 3, 0.910844028]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 5559316367064184580
+    TagComponent:
+      Tag: Cube
+    Parent: 12090395849826178531
+    Children:
+      []
+    TransformComponent:
+      Position: [0.426916242, 0.224035025, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.113720782, 3, 0.910844028]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 5604661836011619956
+    TagComponent:
+      Tag: Torus
+    Parent: 7579798159090397547
+    Children:
+      []
+    TransformComponent:
+      Position: [-22.1944504, -2.40513897, -2.77647591]
+      Rotation: [0, 0, 1.57079637]
+      Scale: [3, 3, 0.400000006]
+    StaticMeshComponent:
+      AssetID: 2637088886328916556
+      MaterialTable:
+        0: 0
+      Visible: true
+    MeshColliderComponent:
+      ColliderHandle: 1846752122494482833
+      UseSharedShape: false
+      Friction: 0.5
+      Restitution: 0.150000006
+      CollisionComplexity: ""
+  - Entity: 5616091793559199730
+    TagComponent:
+      Tag: 114
+    Parent: 10885080999256902224
+    Children:
+      - Handle: 6338431406577353248
+      - Handle: 9937684842279560939
+      - Handle: 8849715035411258420
+      - Handle: 2214592823676444186
+    TransformComponent:
+      Position: [0.0244630277, 2.63676748e-06, -9.80743504]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    ScriptComponent:
+      ClassHandle: 4219589247
+      Name: Taent.Checkpoint
+      StoredFields:
+        - ID: 2315298374
+          Name: m_EndScene
+          Type: Scene
+          Data: 2408180241638136090
+    RigidBodyComponent:
+      BodyType: 0
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: true
+      IsKinematic: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 5787496479616776062
+    TagComponent:
+      Tag: Cube
+    Parent: 7023794814768604151
+    Children:
+      []
+    TransformComponent:
+      Position: [-0.0476784557, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.702925861, 0.359081686, 0.910844028]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 5797445494023367073
+    TagComponent:
+      Tag: Cube
+    Parent: 11539685788526520884
+    Children:
+      []
+    TransformComponent:
+      Position: [-0.0476784557, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.702925861, 0.359081686, 0.910844028]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 5814137022684837192
+    TagComponent:
+      Tag: 202
+    Parent: 10885080999256902224
+    Children:
+      - Handle: 11026167196169767587
+      - Handle: 5343342653560698513
+      - Handle: 18136872738165572512
+      - Handle: 12577346346577557252
+    TransformComponent:
+      Position: [-3.27968335, -3.38698669e-06, 15.1275082]
+      Rotation: [-3.14159274, 2.38418579e-07, -3.14159274]
+      Scale: [1, 1, 1]
+    ScriptComponent:
+      ClassHandle: 4219589247
+      Name: Taent.Checkpoint
+      StoredFields:
+        - ID: 2315298374
+          Name: m_EndScene
+          Type: Scene
+          Data: 894906627845156594
+    RigidBodyComponent:
+      BodyType: 0
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: true
+      IsKinematic: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 5942894919730314291
+    TagComponent:
+      Tag: Text
+    Parent: 17944850922749464404
+    Children:
+      []
+    TransformComponent:
+      Position: [-21.2263145, -1.55827403, -2.19840622]
+      Rotation: [0, 1.57045102, 0]
+      Scale: [0.0799997598, 0.100000001, 0.0999997631]
+    TextComponent:
+      TextString: By Rembrandt
+      FontHandle: 0
+      Color: [0, 0, 0, 1]
+      LineSpacing: 0
+      Kerning: 0
+      MaxWidth: 10
+  - Entity: 6068315954023284556
+    TagComponent:
+      Tag: 0
+    Parent: 11543305288341814524
+    Children:
+      - Handle: 634764553048541532
+      - Handle: 13162923947101386221
+      - Handle: 2595619106757554327
+      - Handle: 3822988835039908267
+      - Handle: 11466091898636085688
+      - Handle: 14483547584679671515
+      - Handle: 2744873581465010852
+      - Handle: 1879664398664950892
+      - Handle: 800644628818723840
+      - Handle: 17944850922749464404
+      - Handle: 6145166138513265804
+      - Handle: 13057622566227525429
+      - Handle: 179045013495218538
+      - Handle: 7579798159090397547
+      - Handle: 2122587196313923935
+      - Handle: 13076861994881655379
+      - Handle: 12494107602122731874
+      - Handle: 900761048520205364
+      - Handle: 15558413016082784777
+      - Handle: 9019781905396372960
+      - Handle: 8537757980694545657
+      - Handle: 14838668459452022442
+      - Handle: 16711040120542767391
+      - Handle: 18347288080656818917
+      - Handle: 18319073918944817683
+      - Handle: 3370703464535388028
+      - Handle: 5062970964930988177
+      - Handle: 8759344033612415211
+      - Handle: 6201237605673236215
+      - Handle: 930345727886298069
+      - Handle: 3703995719945904180
+      - Handle: 12083593892390048785
+      - Handle: 11761185195149688590
+      - Handle: 15540030887474413326
+      - Handle: 16819614041940587507
+    TransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+  - Entity: 6145166138513265804
+    TagComponent:
+      Tag: Cube
+    Parent: 6068315954023284556
+    Children:
+      []
+    TransformComponent:
+      Position: [0.660637438, 1.64940274, 5.48068285]
+      Rotation: [0, -0, 0]
+      Scale: [0.5, 1.09898543, 0.100000001]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 6201237605673236215
+    TagComponent:
+      Tag: Cube
+    Parent: 6068315954023284556
+    Children:
+      []
+    TransformComponent:
+      Position: [-14.3028402, 1.28616285, 4.47076797]
+      Rotation: [3.14159298, -1.80006027e-05, 1.57079422]
+      Scale: [2.67259908, 13.0436468, 0.249999985]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 6248254577368191904
+    TagComponent:
+      Tag: Cube
+    Parent: 7205258159301719350
+    Children:
+      []
+    TransformComponent:
+      Position: [0.426916242, 0.224035025, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.113720782, 3, 0.910844028]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 6281739354959146718
+    TagComponent:
+      Tag: Cube
+    Parent: 13707307056887409181
+    Children:
+      []
+    TransformComponent:
+      Position: [-0.0476784557, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.702925861, 0.359081686, 0.910844028]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 6338431406577353248
+    TagComponent:
+      Tag: Cube
+    Parent: 5616091793559199730
+    Children:
+      []
+    TransformComponent:
+      Position: [-0.0476784557, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.702925861, 0.359081686, 0.910844028]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 6428442212303571188
+    TagComponent:
+      Tag: Cube
+    Parent: 9883492357138117648
+    Children:
+      []
+    TransformComponent:
+      Position: [-0.0476784557, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.702925861, 0.359081686, 0.910844028]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 6642724918051508000
+    TagComponent:
+      Tag: Text
+    Parent: 11539685788526520884
+    Children:
+      []
+    TransformComponent:
+      Position: [0.364255786, 1.17233682, -0.312142313]
+      Rotation: [0, -1.57045102, 0]
+      Scale: [0.5, 0.5, 0.5]
+    TextComponent:
+      TextString: "113\n"
+      FontHandle: 0
+      Color: [0, 0, 0, 1]
+      LineSpacing: 0
+      Kerning: 0
+      MaxWidth: 10
+  - Entity: 7023794814768604151
+    TagComponent:
+      Tag: 101
+    Parent: 10885080999256902224
+    Children:
+      - Handle: 5787496479616776062
+      - Handle: 4292622059685672521
+      - Handle: 459184236003100064
+      - Handle: 804833170226125187
+    TransformComponent:
+      Position: [-3.27968335, -7.88031045e-08, 1.25198102]
+      Rotation: [9.42477798, 2.38418579e-07, 9.42477798]
+      Scale: [1, 1, 1]
+    ScriptComponent:
+      ClassHandle: 4219589247
+      Name: Taent.Checkpoint
+      StoredFields:
+        - ID: 2315298374
+          Name: m_EndScene
+          Type: Scene
+          Data: 11044157218871979796
+    RigidBodyComponent:
+      BodyType: 0
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: true
+      IsKinematic: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 7205258159301719350
+    TagComponent:
+      Tag: 213
+    Parent: 10885080999256902224
+    Children:
+      - Handle: 14206670178215030153
+      - Handle: 6248254577368191904
+      - Handle: 2434242998577361881
+      - Handle: 11748908631514456632
+    TransformComponent:
+      Position: [0.0244630277, -4.56084672e-06, 20.3815594]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    ScriptComponent:
+      ClassHandle: 4219589247
+      Name: Taent.Checkpoint
+      StoredFields:
+        - ID: 2315298374
+          Name: m_EndScene
+          Type: Scene
+          Data: 10492669917615710412
+    RigidBodyComponent:
+      BodyType: 0
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: true
+      IsKinematic: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 7332319129329991242
+    TagComponent:
+      Tag: Cube
+    Parent: 3042223764459386021
+    Children:
+      []
+    TransformComponent:
+      Position: [-0.0476784557, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.702925861, 0.359081686, 0.910844028]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 7482384095034233783
+    TagComponent:
+      Tag: Cube
+    Parent: 15943430302827997943
+    Children:
+      []
+    TransformComponent:
+      Position: [-0.0476784557, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.702925861, 0.359081686, 0.910844028]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 7578895309384988489
+    TagComponent:
+      Tag: Cube
+    Parent: 12091903592243603433
+    Children:
+      []
+    TransformComponent:
+      Position: [0.357893378, 0.827000022, -0.330287933]
+      Rotation: [0, -0, 0]
+      Scale: [0.0907100812, 0.0988517329, 0.0871594548]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 7579798159090397547
+    TagComponent:
+      Tag: Cube
+    Parent: 6068315954023284556
+    Children:
+      - Handle: 5604661836011619956
+      - Handle: 8582796467485231171
+      - Handle: 14297155906348699737
+      - Handle: 13966728195362921842
+    TransformComponent:
+      Position: [0.504061043, 1.15037858, 5.82935715]
+      Rotation: [0, -0, 0]
+      Scale: [0.186286435, 0.100000001, 0.745499849]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 7802924856089329302
+    TagComponent:
+      Tag: Floor
+    Parent: 11543305288341814524
+    Children:
+      []
+    TransformComponent:
+      Position: [3.16500664e-05, 2.5896821, 0]
+      Rotation: [0, -0, 0]
+      Scale: [259.124237, 0.25, 236.258911]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+    MeshColliderComponent:
+      ColliderHandle: 8000606136511210537
+      UseSharedShape: false
+      Friction: 0.5
+      Restitution: 0.150000006
+      CollisionComplexity: ""
+  - Entity: 7842057576451842219
+    TagComponent:
+      Tag: Cube
+    Parent: 1146483725567158788
+    Children:
+      []
+    TransformComponent:
+      Position: [0.426916242, 0.224035025, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.113720782, 3, 0.910844028]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 7902201060849457953
+    TagComponent:
+      Tag: Cube
+    Parent: 3042223764459386021
+    Children:
+      []
+    TransformComponent:
+      Position: [0.426916242, 0.224035025, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.113720782, 3, 0.910844028]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 7945697411319433924
+    TagComponent:
+      Tag: 111
+    Parent: 10885080999256902224
+    Children:
+      - Handle: 4606073626768110092
+      - Handle: 15486693454192046059
+      - Handle: 2395513416003292281
+      - Handle: 4608972907308615681
+    TransformComponent:
+      Position: [0.0244630277, 0, 1.25198138]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    ScriptComponent:
+      ClassHandle: 4219589247
+      Name: Taent.Checkpoint
+      StoredFields:
+        - ID: 2315298374
+          Name: m_EndScene
+          Type: Scene
+          Data: 12392113889745545888
+    RigidBodyComponent:
+      BodyType: 0
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: true
+      IsKinematic: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 8308411772009915138
+    TagComponent:
+      Tag: Cube
+    Parent: 1146483725567158788
+    Children:
+      []
+    TransformComponent:
+      Position: [0.357893378, 0.827000022, -0.330287933]
+      Rotation: [0, -0, 0]
+      Scale: [0.0907100812, 0.0988517329, 0.0871594548]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 8537757980694545657
+    TagComponent:
+      Tag: Cube
+    Parent: 6068315954023284556
+    Children:
+      []
+    TransformComponent:
+      Position: [-3.74169493, 0.286716223, 3.85716844]
+      Rotation: [-1.5809468, 0, 0]
+      Scale: [0.601958752, 1.02413511, 0.427089781]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 8582796467485231171
+    TagComponent:
+      Tag: Cone
+    Parent: 7579798159090397547
+    Children:
+      []
+    TransformComponent:
+      Position: [-22.1944447, -5.36747408, -2.77644014]
+      Rotation: [0, -0, 3.85310206e-15]
+      Scale: [1.87546563, 3.96290803, 0.315856844]
+    StaticMeshComponent:
+      AssetID: 3430554376843419880
+      MaterialTable:
+        0: 0
+      Visible: true
+    MeshColliderComponent:
+      ColliderHandle: 10069167480994581433
+      UseSharedShape: false
+      Friction: 0.5
+      Restitution: 0.150000006
+      CollisionComplexity: ""
+  - Entity: 8700102880248734252
+    TagComponent:
+      Tag: 103
+    Parent: 10885080999256902224
+    Children:
+      - Handle: 13680987047375306294
+      - Handle: 3299932292811476683
+      - Handle: 14826644708884182628
+      - Handle: 15792572835421238045
+    TransformComponent:
+      Position: [-3.27968335, 1.78520463e-06, -6.56623888]
+      Rotation: [-3.14159274, 2.38418579e-07, -3.14159274]
+      Scale: [1, 1, 1]
+    ScriptComponent:
+      ClassHandle: 4219589247
+      Name: Taent.Checkpoint
+      StoredFields:
+        - ID: 2315298374
+          Name: m_EndScene
+          Type: Scene
+          Data: 2045704161893699197
+    RigidBodyComponent:
+      BodyType: 0
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: true
+      IsKinematic: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 8759344033612415211
+    TagComponent:
+      Tag: Cone
+    Parent: 6068315954023284556
+    Children:
+      []
+    TransformComponent:
+      Position: [-0.0752977207, 1.03432226, -5.35607672]
+      Rotation: [3.13832808, -0.147221982, 0.405716181]
+      Scale: [0.300000012, 0.300000012, 0.300000012]
+    ScriptComponent:
+      ClassHandle: 2222805781
+      Name: Taent.ClickPrompt
+    StaticMeshComponent:
+      AssetID: 2637088886328916556
+      MaterialTable:
+        0: 0
+      Visible: true
+    MeshColliderComponent:
+      ColliderHandle: 9671158116950412791
+      UseSharedShape: false
+      Friction: 0.5
+      Restitution: 0.150000006
+      CollisionComplexity: ""
+    AudioComponent:
+      StartEvent: Flower
+      StartCommandID: 2692465900
+      PlayOnAwake: false
+      StopIfEntityDestroyed: true
+      VolumeMultiplier: 1
+      PitchMultiplier: 1
+      AutoDestroy: false
+  - Entity: 8790686003808262426
+    TagComponent:
+      Tag: Text
+    Parent: 13707307056887409181
+    Children:
+      []
+    TransformComponent:
+      Position: [0.364255786, 1.17233682, -0.312142313]
+      Rotation: [0, -1.57045102, 0]
+      Scale: [0.5, 0.5, 0.5]
+    TextComponent:
+      TextString: "105\n\n"
+      FontHandle: 0
+      Color: [0, 0, 0, 1]
+      LineSpacing: 0
+      Kerning: 0
+      MaxWidth: 10
+  - Entity: 8798845227360660559
+    TagComponent:
+      Tag: Cube
+    Parent: 11539685788526520884
+    Children:
+      []
+    TransformComponent:
+      Position: [0.357893378, 0.827000022, -0.330287933]
+      Rotation: [0, -0, 0]
+      Scale: [0.0907100812, 0.0988517329, 0.0871594548]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 8849715035411258420
+    TagComponent:
+      Tag: Cube
+    Parent: 5616091793559199730
+    Children:
+      []
+    TransformComponent:
+      Position: [0.357893378, 0.827000022, -0.330287933]
+      Rotation: [0, -0, 0]
+      Scale: [0.0907100812, 0.0988517329, 0.0871594548]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 8872476562304578648
+    TagComponent:
+      Tag: 201_pkg
+    Parent: 10885080999256902224
+    Children:
+      []
+    TransformComponent:
+      Position: [-10.2371559, 0.962366581, 5.99356651]
+      Rotation: [0, -0, 0]
+      Scale: [0.5, 0.5, 0.5]
+    ScriptComponent:
+      ClassHandle: 4051750727
+      Name: Taent.Package
+      StoredFields:
+        - ID: 3006969856
+          Name: m_Player
+          Type: Entity
+          Data: 3584380978410236239
+        - ID: 3531539911
+          Name: m_PlayerTextOverlay
+          Type: Entity
+          Data: 12380525476817526189
+        - ID: 595989146
+          Name: m_Text
+          Type: String
+          Data: "Deliver to apartment 201"
+        - ID: 2933598927
+          Name: m_Delivery
+          Type: String
+          Data: "201"
+        - ID: 1147342874
+          Name: m_Bin
+          Type: Entity
+          Data: 14898702822262826008
+        - ID: 2650149511
+          Name: m_BinLitterA
+          Type: Entity
+          Data: 14749265222351470436
+        - ID: 737059660
+          Name: m_BinLitterB
+          Type: Entity
+          Data: 11703252381908995507
+        - ID: 1374756277
+          Name: m_BinLitterC
+          Type: Entity
+          Data: 18271073833859192797
+        - ID: 3774522910
+          Name: m_LightA
+          Type: Entity
+          Data: 5447217125893462724
+        - ID: 3136826293
+          Name: m_LightB
+          Type: Entity
+          Data: 9374280836152702006
+        - ID: 705814287
+          Name: m_Wall
+          Type: Entity
+          Data: 2595619106757554327
+        - ID: 2467697620
+          Name: m_Package999
+          Type: Entity
+          Data: 17079610297711869501
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 5955089797737114462
+      Visible: true
+    RigidBodyComponent:
+      BodyType: 1
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0
+      DisableGravity: false
+      IsTrigger: false
+      IsKinematic: false
+      CollisionDetection: 1
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.5
+    AudioComponent:
+      StartEvent: ""
+      StartCommandID: 0
+      PlayOnAwake: false
+      StopIfEntityDestroyed: true
+      VolumeMultiplier: 1
+      PitchMultiplier: 1
+      AutoDestroy: false
+  - Entity: 9019781905396372960
+    TagComponent:
+      Tag: Cube
+    Parent: 6068315954023284556
+    Children:
+      []
+    TransformComponent:
+      Position: [-3.74169493, 1.53415382, 3.85313392]
+      Rotation: [-1.5809468, 0, 0]
+      Scale: [0.556553125, 0.983282745, 0.196143344]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 9129428770904228842
+    TagComponent:
+      Tag: Text
+    Parent: 9851229706094014947
+    Children:
+      []
+    TransformComponent:
+      Position: [0.364255786, 1.17233682, -0.312142313]
+      Rotation: [0, -1.57045102, 0]
+      Scale: [0.5, 0.5, 0.5]
+    TextComponent:
+      TextString: 112
+      FontHandle: 0
+      Color: [0, 0, 0, 1]
+      LineSpacing: 0
+      Kerning: 0
+      MaxWidth: 10
+  - Entity: 9232346054078723303
+    TagComponent:
+      Tag: Cube
+    Parent: 13707307056887409181
+    Children:
+      []
+    TransformComponent:
+      Position: [0.426916242, 0.224035025, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.113720782, 3, 0.910844028]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 9311749391026310842
+    TagComponent:
+      Tag: Cube
+    Parent: 12090395849826178531
+    Children:
+      []
+    TransformComponent:
+      Position: [-0.0476784557, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.702925861, 0.359081686, 0.910844028]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 9374280836152702006
+    TagComponent:
+      Tag: LightB
+    Parent: 2987660226792394792
+    Children:
+      []
+    TransformComponent:
+      Position: [0.78322196, 2.0534761, -7.68396854]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    PointLightComponent:
+      Radiance: [1, 1, 1]
+      Intensity: 0.25
+      CastShadows: true
+      SoftShadows: true
+      MinRadius: 1
+      Radius: 22
+      LightSize: 0.5
+      Falloff: 1
+  - Entity: 9414593345596679860
+    TagComponent:
+      Tag: Cube
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Position: [0, 0, 28.9022007]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 9625026882796664136
+    TagComponent:
+      Tag: Plane
+    Parent: 14748187383859398886
+    Children:
+      []
+    TransformComponent:
+      Position: [-6.71246529, 0.544879913, -0.147685528]
+      Rotation: [0, 0, -1.57079637]
+      Scale: [6.12981558, 0.999999881, 5.49049044]
+    StaticMeshComponent:
+      AssetID: 3822535603038556689
+      MaterialTable:
+        0: 7405533872213105531
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 9707070089372062949
+    TagComponent:
+      Tag: Cube
+    Parent: 10489256498447338563
+    Children:
+      []
+    TransformComponent:
+      Position: [-0.0476784557, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.702925861, 0.359081686, 0.910844028]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 9851229706094014947
+    TagComponent:
+      Tag: 112
+    Parent: 10885080999256902224
+    Children:
+      - Handle: 3753472143381892265
+      - Handle: 863182015957656168
+      - Handle: 10723928923544416658
+      - Handle: 9129428770904228842
+    TransformComponent:
+      Position: [0.0244630277, 1.03521791e-06, -3.09003901]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    ScriptComponent:
+      ClassHandle: 4219589247
+      Name: Taent.Checkpoint
+      StoredFields:
+        - ID: 2315298374
+          Name: m_EndScene
+          Type: Scene
+          Data: 14404055768966535609
+    RigidBodyComponent:
+      BodyType: 0
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: true
+      IsKinematic: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 9883492357138117648
+    TagComponent:
+      Tag: 104
+    Parent: 10885080999256902224
+    Children:
+      - Handle: 6428442212303571188
+      - Handle: 10665244823076995041
+      - Handle: 341452642673914519
+      - Handle: 11509037953737172305
+    TransformComponent:
+      Position: [-3.27968335, 2.55796613e-06, -9.80743504]
+      Rotation: [-3.14159274, 2.38418579e-07, -3.14159274]
+      Scale: [1, 1, 1]
+    ScriptComponent:
+      ClassHandle: 4219589247
+      Name: Taent.Checkpoint
+      StoredFields:
+        - ID: 2315298374
+          Name: m_EndScene
+          Type: Scene
+          Data: 1711022021633486638
+    RigidBodyComponent:
+      BodyType: 0
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: true
+      IsKinematic: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 9937684842279560939
+    TagComponent:
+      Tag: Cube
+    Parent: 5616091793559199730
+    Children:
+      []
+    TransformComponent:
+      Position: [0.426916242, 0.224035025, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.113720782, 3, 0.910844028]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 10105356570052556129
+    TagComponent:
+      Tag: Cube
+    Parent: 15943430302827997943
+    Children:
+      []
+    TransformComponent:
+      Position: [0.357893378, 0.827000022, -0.330287933]
+      Rotation: [0, -0, 0]
+      Scale: [0.0907100812, 0.0988517329, 0.0871594548]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 10203784497026758493
+    TagComponent:
+      Tag: PickupAnchor
+    Parent: 10844045287998289682
+    Children:
+      []
+    TransformComponent:
+      Position: [0, 0, -3]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+  - Entity: 10489256498447338563
+    TagComponent:
+      Tag: -999_door
+    Parent: 10885080999256902224
+    Children:
+      - Handle: 9707070089372062949
+      - Handle: 5552905575652865535
+    TransformComponent:
+      Position: [-20.4035263, -2.08879911e-07, 5.95954561]
+      Rotation: [3.14159274, 0.000345349312, 3.14159274]
+      Scale: [1, 1, 1]
+    RigidBodyComponent:
+      BodyType: 0
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: true
+      IsKinematic: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+  - Entity: 10665244823076995041
+    TagComponent:
+      Tag: Cube
+    Parent: 9883492357138117648
+    Children:
+      []
+    TransformComponent:
+      Position: [0.426916242, 0.224035025, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.113720782, 3, 0.910844028]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 10723928923544416658
+    TagComponent:
+      Tag: Cube
+    Parent: 9851229706094014947
+    Children:
+      []
+    TransformComponent:
+      Position: [0.357893378, 0.827000022, -0.330287933]
+      Rotation: [0, -0, 0]
+      Scale: [0.0907100812, 0.0988517329, 0.0871594548]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 10844045287998289682
+    TagComponent:
+      Tag: Camera
+    Parent: 3584380978410236239
+    Children:
+      - Handle: 2922435988769302378
+      - Handle: 10203784497026758493
+      - Handle: 12380525476817526189
+    TransformComponent:
+      Position: [0, 0.5, 0]
+      Rotation: [0, 1.57079637, 0]
+      Scale: [1, 1, 1]
+    CameraComponent:
+      Camera:
+        ProjectionType: 0
+        PerspectiveFOV: 45
+        PerspectiveNear: 0.100000001
+        PerspectiveFar: 1000
+        OrthographicSize: 10
+        OrthographicNear: -1
+        OrthographicFar: 1
+      Primary: true
+    AudioListenerComponent:
+      Active: true
+      ConeInnerAngle: 6.28318501
+      ConeOuterAngle: 6.28318501
+      ConeOuterGain: 0
+  - Entity: 10874607193709679619
+    TagComponent:
+      Tag: Text
+    Parent: 5552905575652865535
+    Children:
+      []
+    TransformComponent:
+      Position: [-0.551437378, 0.316099077, -0.473425388]
+      Rotation: [-5.38614396e-11, -1.56881297, 5.38732357e-11]
+      Scale: [0.54894346, 0.166666672, 4.39673328]
+    TextComponent:
+      TextString: "-999\n"
+      FontHandle: 0
+      Color: [0, 0, 0, 1]
+      LineSpacing: 0
+      Kerning: 0
+      MaxWidth: 10
+  - Entity: 10885080999256902224
+    TagComponent:
+      Tag: Gameplay
+    Parent: 0
+    Children:
+      - Handle: 14550120712736901933
+      - Handle: 8872476562304578648
+      - Handle: 1652734705425507342
+      - Handle: 2533133382865025474
+      - Handle: 17079610297711869501
+      - Handle: 7945697411319433924
+      - Handle: 7023794814768604151
+      - Handle: 9851229706094014947
+      - Handle: 1605772117256434182
+      - Handle: 11539685788526520884
+      - Handle: 8700102880248734252
+      - Handle: 5616091793559199730
+      - Handle: 9883492357138117648
+      - Handle: 13707307056887409181
+      - Handle: 3042223764459386021
+      - Handle: 11838377089494027442
+      - Handle: 11462461866586293361
+      - Handle: 12091903592243603433
+      - Handle: 18361458181258623905
+      - Handle: 15943430302827997943
+      - Handle: 5814137022684837192
+      - Handle: 7205258159301719350
+      - Handle: 17328133356596329604
+      - Handle: 12090395849826178531
+      - Handle: 1146483725567158788
+      - Handle: 10489256498447338563
+    TransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+  - Entity: 11026167196169767587
+    TagComponent:
+      Tag: Cube
+    Parent: 5814137022684837192
+    Children:
+      []
+    TransformComponent:
+      Position: [-0.0476784557, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.702925861, 0.359081686, 0.910844028]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 11155939536640432974
+    TagComponent:
+      Tag: Cube
+    Parent: 1605772117256434182
+    Children:
+      []
+    TransformComponent:
+      Position: [-0.0476784557, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.702925861, 0.359081686, 0.910844028]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 11167284248386621574
+    TagComponent:
+      Tag: Cube
+    Parent: 17328133356596329604
+    Children:
+      []
+    TransformComponent:
+      Position: [-0.0476784557, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.702925861, 0.359081686, 0.910844028]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 11462461866586293361
+    TagComponent:
+      Tag: Bell
+    Parent: 10885080999256902224
+    Children:
+      []
+    TransformComponent:
+      Position: [-3.67099977, 0.570603013, 4.08443785]
+      Rotation: [0, -0, 0]
+      Scale: [0.178988785, 0.209999979, 0.175098106]
+    ScriptComponent:
+      ClassHandle: 2222805781
+      Name: Taent.ClickPrompt
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 18376327329218423629
+      Visible: true
+    RigidBodyComponent:
+      BodyType: 0
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: false
+      IsKinematic: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+    AudioComponent:
+      StartEvent: Art
+      StartCommandID: 3296235700
+      PlayOnAwake: false
+      StopIfEntityDestroyed: true
+      VolumeMultiplier: 1
+      PitchMultiplier: 1
+      AutoDestroy: false
+  - Entity: 11466091898636085688
+    TagComponent:
+      Tag: Cube
+    Parent: 6068315954023284556
+    Children:
+      []
+    TransformComponent:
+      Position: [-3.85340762, 1.28651154, -4.01295614]
+      Rotation: [14.1371679, -1.80006027e-05, 1.57079422]
+      Scale: [2.67259908, 17.1490021, 0.249999985]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 11509037953737172305
+    TagComponent:
+      Tag: Text
+    Parent: 9883492357138117648
+    Children:
+      []
+    TransformComponent:
+      Position: [0.364255786, 1.17233682, -0.312142313]
+      Rotation: [0, -1.57045102, 0]
+      Scale: [0.5, 0.5, 0.5]
+    TextComponent:
+      TextString: "104\n"
+      FontHandle: 0
+      Color: [0, 0, 0, 1]
+      LineSpacing: 0
+      Kerning: 0
+      MaxWidth: 10
+  - Entity: 11539685788526520884
+    TagComponent:
+      Tag: 113
+    Parent: 10885080999256902224
+    Children:
+      - Handle: 5797445494023367073
+      - Handle: 4469360616111392691
+      - Handle: 8798845227360660559
+      - Handle: 6642724918051508000
+    TransformComponent:
+      Position: [0.0244630277, 1.86400598e-06, -6.56623888]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    ScriptComponent:
+      ClassHandle: 4219589247
+      Name: Taent.Checkpoint
+      StoredFields:
+        - ID: 2315298374
+          Name: m_EndScene
+          Type: Scene
+          Data: 9042474525721695636
+    RigidBodyComponent:
+      BodyType: 0
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: true
+      IsKinematic: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 11543305288341814524
+    TagComponent:
+      Tag: Geometry
+    Parent: 0
+    Children:
+      - Handle: 3857927390562230926
+      - Handle: 6068315954023284556
+      - Handle: 7802924856089329302
+    TransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+  - Entity: 11703252381908995507
+    TagComponent:
+      Tag: TrashB
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Position: [0, 3.20230126, 0]
+      Rotation: [0, 0, 0]
+      Scale: [0.100000001, 0.100000001, 0.100000001]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 4732569129918337341
+      Visible: true
+    RigidBodyComponent:
+      BodyType: 1
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: false
+      IsKinematic: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 11748908631514456632
+    TagComponent:
+      Tag: Text
+    Parent: 7205258159301719350
+    Children:
+      []
+    TransformComponent:
+      Position: [0.364255786, 1.17233682, -0.312142313]
+      Rotation: [0, -1.57045102, 0]
+      Scale: [0.5, 0.5, 0.5]
+    TextComponent:
+      TextString: 213
+      FontHandle: 0
+      Color: [0, 0, 0, 1]
+      LineSpacing: 0
+      Kerning: 0
+      MaxWidth: 10
+  - Entity: 11761185195149688590
+    TagComponent:
+      Tag: Cube
+    Parent: 6068315954023284556
+    Children:
+      []
+    TransformComponent:
+      Position: [-24.7652073, 1.28620088, 3.3447926]
+      Rotation: [3.14159298, -1.80006027e-05, 1.57079422]
+      Scale: [2.67259908, 19.7806969, 0.249999985]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 11838377089494027442
+    TagComponent:
+      Tag: Bell
+    Parent: 10885080999256902224
+    Children:
+      []
+    TransformComponent:
+      Position: [-0.515468478, 0.829824984, 4.9415617]
+      Rotation: [0, -0, 0]
+      Scale: [0.178988785, 0.209999979, 0.175098106]
+    ScriptComponent:
+      ClassHandle: 2222805781
+      Name: Taent.ClickPrompt
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 18376327329218423629
+      Visible: true
+    RigidBodyComponent:
+      BodyType: 0
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: false
+      IsKinematic: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+    AudioComponent:
+      StartEvent: Bell
+      StartCommandID: 3540602809
+      PlayOnAwake: false
+      StopIfEntityDestroyed: true
+      VolumeMultiplier: 1
+      PitchMultiplier: 1
+      AutoDestroy: false
+  - Entity: 11909607323695678910
+    TagComponent:
+      Tag: Cube
+    Parent: 18361458181258623905
+    Children:
+      []
+    TransformComponent:
+      Position: [0.357893378, 0.827000022, -0.330287933]
+      Rotation: [0, -0, 0]
+      Scale: [0.0907100812, 0.0988517329, 0.0871594548]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 12083593892390048785
+    TagComponent:
+      Tag: Cube
+    Parent: 6068315954023284556
+    Children:
+      []
+    TransformComponent:
+      Position: [-20.7686977, 2.15018535, 5.88774157]
+      Rotation: [1.57079577, -1.80602074e-05, 1.57079422]
+      Scale: [0.811906099, 2.03672171, 0.25000006]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 12090395849826178531
+    TagComponent:
+      Tag: 214
+    Parent: 10885080999256902224
+    Children:
+      - Handle: 9311749391026310842
+      - Handle: 5559316367064184580
+      - Handle: 18425319686720395743
+      - Handle: 2441003333483490906
+    TransformComponent:
+      Position: [0.0244630277, -5.79926473e-06, 25.575861]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    ScriptComponent:
+      ClassHandle: 4219589247
+      Name: Taent.Checkpoint
+      StoredFields:
+        - ID: 2315298374
+          Name: m_EndScene
+          Type: Scene
+          Data: 1201904449719881132
+    RigidBodyComponent:
+      BodyType: 0
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: true
+      IsKinematic: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 12091903592243603433
+    TagComponent:
+      Tag: 211
+    Parent: 10885080999256902224
+    Children:
+      - Handle: 15024612693936236505
+      - Handle: 17277300401272426484
+      - Handle: 7578895309384988489
+      - Handle: 4185613543857560472
+    TransformComponent:
+      Position: [0.0244630277, -2.23974598e-06, 10.6461573]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    ScriptComponent:
+      ClassHandle: 4219589247
+      Name: Taent.Checkpoint
+      StoredFields:
+        - ID: 2315298374
+          Name: m_EndScene
+          Type: Scene
+          Data: 3836800743448189431
+    RigidBodyComponent:
+      BodyType: 0
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: true
+      IsKinematic: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 12177526242811182758
+    TagComponent:
+      Tag: Cube
+    Parent: 18361458181258623905
+    Children:
+      []
+    TransformComponent:
+      Position: [-0.0476784557, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.702925861, 0.359081686, 0.910844028]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 12261036850209055727
+    TagComponent:
+      Tag: Text
+    Parent: 15943430302827997943
+    Children:
+      []
+    TransformComponent:
+      Position: [0.364255786, 1.17233682, -0.312142313]
+      Rotation: [0, -1.57045102, 0]
+      Scale: [0.5, 0.5, 0.5]
+    TextComponent:
+      TextString: "212\n"
+      FontHandle: 0
+      Color: [0, 0, 0, 1]
+      LineSpacing: 0
+      Kerning: 0
+      MaxWidth: 10
+  - Entity: 12380525476817526189
+    TagComponent:
+      Tag: TextOverlay
+    Parent: 10844045287998289682
+    Children:
+      []
+    TransformComponent:
+      Position: [-0.119999997, 0.0500000007, -0.200000003]
+      Rotation: [0, 0, 0]
+      Scale: [0.00999999978, 0.00999999978, 0.00999999978]
+    TextComponent:
+      TextString: ""
+      FontHandle: 0
+      Color: [1, 1, 1, 1]
+      LineSpacing: 0
+      Kerning: 0
+      MaxWidth: 10
+  - Entity: 12494107602122731874
+    TagComponent:
+      Tag: Cube
+    Parent: 6068315954023284556
+    Children:
+      []
+    TransformComponent:
+      Position: [-3.85338211, 1.28600991, 23.8739834]
+      Rotation: [14.1371679, -1.80006027e-05, 1.57079422]
+      Scale: [2.67259908, 17.1490021, 0.249999985]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 12561817235636417322
+    TagComponent:
+      Tag: Cube
+    Parent: 1605772117256434182
+    Children:
+      []
+    TransformComponent:
+      Position: [0.426916242, 0.224035025, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.113720782, 3, 0.910844028]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 12577346346577557252
+    TagComponent:
+      Tag: Text
+    Parent: 5814137022684837192
+    Children:
+      []
+    TransformComponent:
+      Position: [0.364255786, 1.17233682, -0.312142313]
+      Rotation: [0, -1.57045102, 0]
+      Scale: [0.5, 0.5, 0.5]
+    TextComponent:
+      TextString: "202\n"
+      FontHandle: 0
+      Color: [0, 0, 0, 1]
+      LineSpacing: 0
+      Kerning: 0
+      MaxWidth: 10
+  - Entity: 13057622566227525429
+    TagComponent:
+      Tag: Cube
+    Parent: 6068315954023284556
+    Children:
+      []
+    TransformComponent:
+      Position: [0.660637438, 1.64940274, 6.1705637]
+      Rotation: [0, -0, 0]
+      Scale: [0.5, 1.09898543, 0.100000001]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 13076861994881655379
+    TagComponent:
+      Tag: Cube
+    Parent: 6068315954023284556
+    Children:
+      []
+    TransformComponent:
+      Position: [0.200135931, 0.193599656, 4.90419912]
+      Rotation: [3.14159274, 1.56970441, 3.14159274]
+      Scale: [0.556553066, 0.187855408, 2.01839375]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 13098248942556556077
+    TagComponent:
+      Tag: Text
+    Parent: 1146483725567158788
+    Children:
+      []
+    TransformComponent:
+      Position: [0.364255786, 1.17233682, -0.312142313]
+      Rotation: [0, -1.57045102, 0]
+      Scale: [0.5, 0.5, 0.5]
+    TextComponent:
+      TextString: 204
+      FontHandle: 0
+      Color: [0, 0, 0, 1]
+      LineSpacing: 0
+      Kerning: 0
+      MaxWidth: 10
+  - Entity: 13152412581055682001
+    TagComponent:
+      Tag: Cube
+    Parent: 1605772117256434182
+    Children:
+      []
+    TransformComponent:
+      Position: [0.357893378, 0.827000022, -0.330287933]
+      Rotation: [0, -0, 0]
+      Scale: [0.0907100812, 0.0988517329, 0.0871594548]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 13162923947101386221
+    TagComponent:
+      Tag: Cube
+    Parent: 6068315954023284556
+    Children:
+      []
+    TransformComponent:
+      Position: [-10.2495975, 1.28615344, 4.47076797]
+      Rotation: [3.14159298, -1.80006027e-05, 1.57079422]
+      Scale: [2.67259908, 13.0436468, 0.249999985]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 13680987047375306294
+    TagComponent:
+      Tag: Cube
+    Parent: 8700102880248734252
+    Children:
+      []
+    TransformComponent:
+      Position: [-0.0476784557, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.702925861, 0.359081686, 0.910844028]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 13707307056887409181
+    TagComponent:
+      Tag: 105
+    Parent: 10885080999256902224
+    Children:
+      - Handle: 6281739354959146718
+      - Handle: 9232346054078723303
+      - Handle: 3627506448041987903
+      - Handle: 8790686003808262426
+    TransformComponent:
+      Position: [-3.27968335, 2.02453862e-06, -14.3345375]
+      Rotation: [3.1415925, 2.38418579e-07, 3.1415925]
+      Scale: [1, 1, 1]
+    ScriptComponent:
+      ClassHandle: 4219589247
+      Name: Taent.Checkpoint
+      StoredFields:
+        - ID: 2315298374
+          Name: m_EndScene
+          Type: Scene
+          Data: 7852477727251175614
+    RigidBodyComponent:
+      BodyType: 0
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: true
+      IsKinematic: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 13966728195362921842
+    TagComponent:
+      Tag: Cone
+    Parent: 7579798159090397547
+    Children:
+      []
+    TransformComponent:
+      Position: [-22.1944447, 2.69114304, -2.77646446]
+      Rotation: [0, -0, 3.85310206e-15]
+      Scale: [1.87546563, 3.96290803, 0.315856844]
+    StaticMeshComponent:
+      AssetID: 3430554376843419880
+      MaterialTable:
+        0: 0
+      Visible: true
+    MeshColliderComponent:
+      ColliderHandle: 3300020698877804744
+      UseSharedShape: false
+      Friction: 0.5
+      Restitution: 0.150000006
+      CollisionComplexity: ""
+  - Entity: 13998386292485713218
+    TagComponent:
+      Tag: Text
+    Parent: 2595619106757554327
+    Children:
+      []
+    TransformComponent:
+      Position: [-0.0133386254, 0.11302197, 0.542419434]
+      Rotation: [-0.00478354609, 0.0047852206, -1.57080603]
+      Scale: [0.0203673299, 0.0374167673, 0.399999917]
+    TextComponent:
+      TextString: Deliver all the packages
+      FontHandle: 0
+      Color: [0, 0, 0, 1]
+      LineSpacing: 0
+      Kerning: 0
+      MaxWidth: 10
+  - Entity: 14206670178215030153
+    TagComponent:
+      Tag: Cube
+    Parent: 7205258159301719350
+    Children:
+      []
+    TransformComponent:
+      Position: [-0.0476784557, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.702925861, 0.359081686, 0.910844028]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 14297155906348699737
+    TagComponent:
+      Tag: Torus
+    Parent: 7579798159090397547
+    Children:
+      []
+    TransformComponent:
+      Position: [-22.1947803, 2.65901375, -2.30144835]
+      Rotation: [0, 0, 1.57079637]
+      Scale: [3, 3, 0.400000006]
+    StaticMeshComponent:
+      AssetID: 2637088886328916556
+      MaterialTable:
+        0: 0
+      Visible: true
+    MeshColliderComponent:
+      ColliderHandle: 3952969913702941218
+      UseSharedShape: false
+      Friction: 0.5
+      Restitution: 0.150000006
+      CollisionComplexity: ""
+  - Entity: 14483547584679671515
+    TagComponent:
+      Tag: Cube
+    Parent: 6068315954023284556
+    Children:
+      []
+    TransformComponent:
+      Position: [0.585094213, 1.28633511, 5.97856283]
+      Rotation: [14.1371679, -1.80006027e-05, 1.57079422]
+      Scale: [2.67259908, 72.7489853, 0.249999985]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 14494185846151467391
+    TagComponent:
+      Tag: Cube
+    Parent: 14898702822262826008
+    Children:
+      []
+    TransformComponent:
+      Position: [0.201939359, 0.829825282, 14.1630669]
+      Rotation: [-0.511713803, 0.863778174, 1.0940299]
+      Scale: [0.205294907, 0.165672541, 0.216610923]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 4732569129918337341
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 14550120712736901933
+    TagComponent:
+      Tag: 113_pkg
+    Parent: 10885080999256902224
+    Children:
+      []
+    TransformComponent:
+      Position: [-10.3819342, 0.396053821, 5.54493618]
+      Rotation: [0, -0, 0]
+      Scale: [0.5, 0.5, 0.5]
+    ScriptComponent:
+      ClassHandle: 4051750727
+      Name: Taent.Package
+      StoredFields:
+        - ID: 3006969856
+          Name: m_Player
+          Type: Entity
+          Data: 3584380978410236239
+        - ID: 3531539911
+          Name: m_PlayerTextOverlay
+          Type: Entity
+          Data: 12380525476817526189
+        - ID: 595989146
+          Name: m_Text
+          Type: String
+          Data: "Deliver to apartment 113"
+        - ID: 2933598927
+          Name: m_Delivery
+          Type: String
+          Data: "113"
+        - ID: 1147342874
+          Name: m_Bin
+          Type: Entity
+          Data: 14898702822262826008
+        - ID: 2650149511
+          Name: m_BinLitterA
+          Type: Entity
+          Data: 14749265222351470436
+        - ID: 737059660
+          Name: m_BinLitterB
+          Type: Entity
+          Data: 11703252381908995507
+        - ID: 1374756277
+          Name: m_BinLitterC
+          Type: Entity
+          Data: 18271073833859192797
+        - ID: 3774522910
+          Name: m_LightA
+          Type: Entity
+          Data: 5447217125893462724
+        - ID: 3136826293
+          Name: m_LightB
+          Type: Entity
+          Data: 9374280836152702006
+        - ID: 705814287
+          Name: m_Wall
+          Type: Entity
+          Data: 2595619106757554327
+        - ID: 2467697620
+          Name: m_Package999
+          Type: Entity
+          Data: 17079610297711869501
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 5955089797737114462
+      Visible: true
+    RigidBodyComponent:
+      BodyType: 1
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0
+      DisableGravity: false
+      IsTrigger: false
+      IsKinematic: false
+      CollisionDetection: 1
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.5
+    AudioComponent:
+      StartEvent: ""
+      StartCommandID: 0
+      PlayOnAwake: false
+      StopIfEntityDestroyed: true
+      VolumeMultiplier: 1
+      PitchMultiplier: 1
+      AutoDestroy: false
+  - Entity: 14748187383859398886
+    TagComponent:
+      Tag: -999
+    Parent: 0
+    Children:
+      - Handle: 1992552542058768163
+      - Handle: 4488187600493267186
+      - Handle: 9625026882796664136
+    TransformComponent:
+      Position: [-26.0098743, 0.271177441, 5.98630619]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    ScriptComponent:
+      ClassHandle: 4219589247
+      Name: Taent.Checkpoint
+      StoredFields:
+        - ID: 2315298374
+          Name: m_EndScene
+          Type: Scene
+          Data: 3099349032321886525
+    RigidBodyComponent:
+      BodyType: 0
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: true
+      IsKinematic: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 14749265222351470436
+    TagComponent:
+      Tag: TrashA
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Position: [0, 3.20230126, 0]
+      Rotation: [0, 0, 0]
+      Scale: [0.100000001, 0.100000001, 0.100000001]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 4732569129918337341
+      Visible: true
+    RigidBodyComponent:
+      BodyType: 1
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: false
+      IsKinematic: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 14749871546502305571
+    TagComponent:
+      Tag: Text
+    Parent: 17944850922749464404
+    Children:
+      []
+    TransformComponent:
+      Position: [-21.2263145, -1.4412663, -2.1983676]
+      Rotation: [0, 1.57045102, 0]
+      Scale: [0.17999953, 0.200000003, 0.0999997631]
+    TextComponent:
+      TextString: "'I Don't Get Art'"
+      FontHandle: 0
+      Color: [0, 0, 0, 1]
+      LineSpacing: 0
+      Kerning: 0
+      MaxWidth: 10
+  - Entity: 14826644708884182628
+    TagComponent:
+      Tag: Cube
+    Parent: 8700102880248734252
+    Children:
+      []
+    TransformComponent:
+      Position: [0.357893378, 0.827000022, -0.330287933]
+      Rotation: [0, -0, 0]
+      Scale: [0.0907100812, 0.0988517329, 0.0871594548]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 14838668459452022442
+    TagComponent:
+      Tag: Plane
+    Parent: 6068315954023284556
+    Children:
+      []
+    TransformComponent:
+      Position: [-1.41662312, 1.00734293, 27.3046169]
+      Rotation: [1.57079637, 0, 0]
+      Scale: [7.18057442, 0.999999881, 9.44999981]
+    StaticMeshComponent:
+      AssetID: 3822535603038556689
+      MaterialTable:
+        0: 0
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 14898702822262826008
+    TagComponent:
+      Tag: Bin
+    Parent: 0
+    Children:
+      - Handle: 460090423452624302
+      - Handle: 1685252751438036630
+      - Handle: 5082573133892757762
+      - Handle: 14494185846151467391
+      - Handle: 1643674336875783025
+      - Handle: 15559961453961322398
+    TransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+  - Entity: 15024612693936236505
+    TagComponent:
+      Tag: Cube
+    Parent: 12091903592243603433
+    Children:
+      []
+    TransformComponent:
+      Position: [-0.0476784557, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.702925861, 0.359081686, 0.910844028]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 15486693454192046059
+    TagComponent:
+      Tag: Cube
+    Parent: 7945697411319433924
+    Children:
+      []
+    TransformComponent:
+      Position: [0.426916242, 0.224035025, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.113720782, 3, 0.910844028]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 15540030887474413326
+    TagComponent:
+      Tag: Cube
+    Parent: 6068315954023284556
+    Children:
+      []
+    TransformComponent:
+      Position: [-24.7652073, 1.28610837, 8.56580544]
+      Rotation: [3.14159298, -1.80006027e-05, 1.57079422]
+      Scale: [2.67259908, 17.1490021, 0.249999985]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 7405533872213105531
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 15558413016082784777
+    TagComponent:
+      Tag: Cube
+    Parent: 6068315954023284556
+    Children:
+      []
+    TransformComponent:
+      Position: [-3.74169469, 0.655147254, 3.46041203]
+      Rotation: [0, -0, 0]
+      Scale: [0.556553125, 1.7620374, 0.196143344]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 15559961453961322398
+    TagComponent:
+      Tag: Cylinder
+    Parent: 14898702822262826008
+    Children:
+      []
+    TransformComponent:
+      Position: [0, 0.366779804, 14.104599]
+      Rotation: [0, 0, 0]
+      Scale: [0.75, 1, 0.75]
+    StaticMeshComponent:
+      AssetID: 17177150567795059870
+      MaterialTable:
+        0: 0
+      Visible: true
+    MeshColliderComponent:
+      ColliderHandle: 2757395322750374932
+      UseSharedShape: false
+      Friction: 0.5
+      Restitution: 0.150000006
+      CollisionComplexity: ""
+  - Entity: 15792572835421238045
+    TagComponent:
+      Tag: Text
+    Parent: 8700102880248734252
+    Children:
+      []
+    TransformComponent:
+      Position: [0.364255786, 1.17233682, -0.312142313]
+      Rotation: [0, -1.57045102, 0]
+      Scale: [0.5, 0.5, 0.5]
+    TextComponent:
+      TextString: "103\n"
+      FontHandle: 0
+      Color: [0, 0, 0, 1]
+      LineSpacing: 0
+      Kerning: 0
+      MaxWidth: 10
+  - Entity: 15943430302827997943
+    TagComponent:
+      Tag: 212
+    Parent: 10885080999256902224
+    Children:
+      - Handle: 7482384095034233783
+      - Handle: 490232547075815579
+      - Handle: 10105356570052556129
+      - Handle: 12261036850209055727
+    TransformComponent:
+      Position: [0.0244630277, -3.30818352e-06, 15.1275082]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    ScriptComponent:
+      ClassHandle: 4219589247
+      Name: Taent.Checkpoint
+      StoredFields:
+        - ID: 2315298374
+          Name: m_EndScene
+          Type: Scene
+          Data: 15833547280550434336
+    RigidBodyComponent:
+      BodyType: 0
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: true
+      IsKinematic: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 16441683654388057577
+    TagComponent:
+      Tag: Text
+    Parent: 17944850922749464404
+    Children:
+      []
+    TransformComponent:
+      Position: [-0.501641989, 0.27119112, -0.367517948]
+      Rotation: [0, -1.57079637, 0]
+      Scale: [0.180000007, 0.200000003, 0.100000001]
+    TextComponent:
+      TextString: Remember!
+      FontHandle: 0
+      Color: [0, 0, 0, 1]
+      LineSpacing: 0
+      Kerning: 0
+      MaxWidth: 10
+  - Entity: 16711040120542767391
+    TagComponent:
+      Tag: Cube
+    Parent: 6068315954023284556
+    Children:
+      []
+    TransformComponent:
+      Position: [0.244778007, 0.342953116, -5.31647491]
+      Rotation: [3.14159274, 1.56970441, 3.14159274]
+      Scale: [0.703317881, 0.491514206, 0.928858221]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 16819614041940587507
+    TagComponent:
+      Tag: Plane
+    Parent: 6068315954023284556
+    Children:
+      []
+    TransformComponent:
+      Position: [-1.41662312, 1.00734365, -15.8326492]
+      Rotation: [-1.57079637, 0, 0]
+      Scale: [7.18057442, 0.999999881, 9.44999981]
+    StaticMeshComponent:
+      AssetID: 3822535603038556689
+      MaterialTable:
+        0: 0
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 17079610297711869501
+    TagComponent:
+      Tag: -999_pkg
+    Parent: 10885080999256902224
+    Children:
+      []
+    TransformComponent:
+      Position: [-10.3638048, 3.63103628, 6.08812428]
+      Rotation: [0, -0, 0]
+      Scale: [0.5, 0.5, 0.5]
+    ScriptComponent:
+      ClassHandle: 4051750727
+      Name: Taent.Package
+      StoredFields:
+        - ID: 3006969856
+          Name: m_Player
+          Type: Entity
+          Data: 3584380978410236239
+        - ID: 3531539911
+          Name: m_PlayerTextOverlay
+          Type: Entity
+          Data: 12380525476817526189
+        - ID: 595989146
+          Name: m_Text
+          Type: String
+          Data: "Deliver to apartment -999"
+        - ID: 2933598927
+          Name: m_Delivery
+          Type: String
+          Data: "-999"
+        - ID: 1147342874
+          Name: m_Bin
+          Type: Entity
+          Data: 14898702822262826008
+        - ID: 2650149511
+          Name: m_BinLitterA
+          Type: Entity
+          Data: 1126601111082935187
+        - ID: 737059660
+          Name: m_BinLitterB
+          Type: Entity
+          Data: 9916998057493599322
+        - ID: 1374756277
+          Name: m_BinLitterC
+          Type: Entity
+          Data: 9483618064436782609
+        - ID: 3774522910
+          Name: m_LightA
+          Type: Entity
+          Data: 5447217125893462724
+        - ID: 3136826293
+          Name: m_LightB
+          Type: Entity
+          Data: 9374280836152702006
+        - ID: 705814287
+          Name: m_Wall
+          Type: Entity
+          Data: 10577036829481638294
+        - ID: 2467697620
+          Name: m_Package999
+          Type: Entity
+          Data: 3443984640064032636
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 5955089797737114462
+      Visible: true
+    RigidBodyComponent:
+      BodyType: 1
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0
+      DisableGravity: false
+      IsTrigger: false
+      IsKinematic: false
+      CollisionDetection: 1
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.5
+    AudioComponent:
+      StartEvent: ""
+      StartCommandID: 0
+      PlayOnAwake: false
+      StopIfEntityDestroyed: true
+      VolumeMultiplier: 1
+      PitchMultiplier: 1
+      AutoDestroy: false
+  - Entity: 17195909293519202962
+    TagComponent:
+      Tag: Cube
+    Parent: 18361458181258623905
+    Children:
+      []
+    TransformComponent:
+      Position: [0.426916242, 0.224035025, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.113720782, 3, 0.910844028]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 17277300401272426484
+    TagComponent:
+      Tag: Cube
+    Parent: 12091903592243603433
+    Children:
+      []
+    TransformComponent:
+      Position: [0.426916242, 0.224035025, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.113720782, 3, 0.910844028]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 17328133356596329604
+    TagComponent:
+      Tag: 203
+    Parent: 10885080999256902224
+    Children:
+      - Handle: 11167284248386621574
+      - Handle: 4096662107526455553
+      - Handle: 1717916085766252235
+      - Handle: 18214529744559356419
+    TransformComponent:
+      Position: [-3.27968335, -4.63965034e-06, 20.3815594]
+      Rotation: [-3.14159274, 2.38418579e-07, -3.14159274]
+      Scale: [1, 1, 1]
+    ScriptComponent:
+      ClassHandle: 4219589247
+      Name: Taent.Checkpoint
+      StoredFields:
+        - ID: 2315298374
+          Name: m_EndScene
+          Type: Scene
+          Data: 4178740371871198548
+    RigidBodyComponent:
+      BodyType: 0
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: true
+      IsKinematic: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 17944850922749464404
+    TagComponent:
+      Tag: Cube
+    Parent: 6068315954023284556
+    Children:
+      - Handle: 16441683654388057577
+      - Handle: 4977996604860089595
+      - Handle: 14749871546502305571
+      - Handle: 5942894919730314291
+    TransformComponent:
+      Position: [0.515100896, 1.64940274, 5.82935715]
+      Rotation: [0, -0, 0]
+      Scale: [0.186286435, 0.92871362, 0.745499849]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 17954378752547430817
+    TagComponent:
+      Tag: Text
+    Parent: 1605772117256434182
+    Children:
+      []
+    TransformComponent:
+      Position: [0.364255786, 1.17233682, -0.312142313]
+      Rotation: [0, -1.57045102, 0]
+      Scale: [0.5, 0.5, 0.5]
+    TextComponent:
+      TextString: "102\n"
+      FontHandle: 0
+      Color: [0, 0, 0, 1]
+      LineSpacing: 0
+      Kerning: 0
+      MaxWidth: 10
+  - Entity: 18136872738165572512
+    TagComponent:
+      Tag: Cube
+    Parent: 5814137022684837192
+    Children:
+      []
+    TransformComponent:
+      Position: [0.357893378, 0.827000022, -0.330287933]
+      Rotation: [0, -0, 0]
+      Scale: [0.0907100812, 0.0988517329, 0.0871594548]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+  - Entity: 18214529744559356419
+    TagComponent:
+      Tag: Text
+    Parent: 17328133356596329604
+    Children:
+      []
+    TransformComponent:
+      Position: [0.364255786, 1.17233682, -0.312142313]
+      Rotation: [0, -1.57045102, 0]
+      Scale: [0.5, 0.5, 0.5]
+    TextComponent:
+      TextString: "203\n"
+      FontHandle: 0
+      Color: [0, 0, 0, 1]
+      LineSpacing: 0
+      Kerning: 0
+      MaxWidth: 10
+  - Entity: 18271073833859192797
+    TagComponent:
+      Tag: TrashC
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Position: [0, 3.20230126, 0]
+      Rotation: [0, 0, 0]
+      Scale: [0.100000001, 0.100000001, 0.100000001]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 4732569129918337341
+      Visible: true
+    RigidBodyComponent:
+      BodyType: 1
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: false
+      IsKinematic: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 18319073918944817683
+    TagComponent:
+      Tag: Cylinder
+    Parent: 6068315954023284556
+    Children:
+      []
+    TransformComponent:
+      Position: [0, 0.824941158, -5.3235774]
+      Rotation: [-0.435055465, 0, 0]
+      Scale: [0.0500000007, 0.0986478403, 0.0500000007]
+    StaticMeshComponent:
+      AssetID: 17177150567795059870
+      MaterialTable:
+        0: 0
+      Visible: true
+    MeshColliderComponent:
+      ColliderHandle: 8160507056623279079
+      UseSharedShape: false
+      Friction: 0.5
+      Restitution: 0.150000006
+      CollisionComplexity: ""
+  - Entity: 18347288080656818917
+    TagComponent:
+      Tag: Cylinder
+    Parent: 6068315954023284556
+    Children:
+      []
+    TransformComponent:
+      Position: [0, 0.29876256, -5.31099749]
+      Rotation: [0, -0, 0]
+      Scale: [0.0500000007, 1, 0.0500000007]
+    StaticMeshComponent:
+      AssetID: 17177150567795059870
+      MaterialTable:
+        0: 0
+      Visible: true
+    MeshColliderComponent:
+      ColliderHandle: 16249355850899551784
+      UseSharedShape: false
+      Friction: 0.5
+      Restitution: 0.150000006
+      CollisionComplexity: ""
+  - Entity: 18361458181258623905
+    TagComponent:
+      Tag: 201
+    Parent: 10885080999256902224
+    Children:
+      - Handle: 12177526242811182758
+      - Handle: 17195909293519202962
+      - Handle: 11909607323695678910
+      - Handle: 766959363838365336
+    TransformComponent:
+      Position: [-3.27968335, -2.31854915e-06, 10.6461563]
+      Rotation: [-3.14159274, 2.38418579e-07, -3.14159274]
+      Scale: [1, 1, 1]
+    ScriptComponent:
+      ClassHandle: 4219589247
+      Name: Taent.Checkpoint
+      StoredFields:
+        - ID: 2315298374
+          Name: m_EndScene
+          Type: Scene
+          Data: 9808178969001026748
+    RigidBodyComponent:
+      BodyType: 0
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: true
+      IsKinematic: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 18425319686720395743
+    TagComponent:
+      Tag: Cube
+    Parent: 12090395849826178531
+    Children:
+      []
+    TransformComponent:
+      Position: [0.357893378, 0.827000022, -0.330287933]
+      Rotation: [0, -0, 0]
+      Scale: [0.0907100812, 0.0988517329, 0.0871594548]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+SceneAudio:
+  MasterReverb:
+    Pre-delay: 44
+    Room size: 0.49999994
+    Damping: 0.5
+    Width: 1

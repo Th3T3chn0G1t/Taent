@@ -1,0 +1,527 @@
+Scene: 1
+Entities:
+  - Entity: 461821307523559548
+    TagComponent:
+      Tag: Cube
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Position: [-0.150864661, 2.84521246, -3.13554668]
+      Rotation: [0, 0, 0]
+      Scale: [0.75, 0.75, 0.75]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 18376327329218423629
+      Visible: true
+    RigidBodyComponent:
+      BodyType: 1
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: false
+      IsKinematic: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 4139378659556977153
+    TagComponent:
+      Tag: Cube
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Position: [2.63002443, 2.84528255, 2.01993561]
+      Rotation: [0, 0, 0]
+      Scale: [0.75, 0.75, 0.75]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 18376327329218423629
+      Visible: true
+    RigidBodyComponent:
+      BodyType: 1
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: false
+      IsKinematic: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 4360277182485067701
+    TagComponent:
+      Tag: Cube
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Position: [0, 1.95833832e-06, 5.47591639]
+      Rotation: [-1.57079661, 0, 0]
+      Scale: [29.0349731, 1, 27.0930805]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 4422330270561256776
+    TagComponent:
+      Tag: acas
+    Parent: 4829590272259936564
+    Children:
+      []
+    TransformComponent:
+      Position: [0, 0, -3]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+  - Entity: 4829590272259936564
+    TagComponent:
+      Tag: Camera
+    Parent: 11581864690778376402
+    Children:
+      - Handle: 4422330270561256776
+    TransformComponent:
+      Position: [0, 0.5, 0]
+      Rotation: [0, 1.57079637, 0]
+      Scale: [1, 1, 1]
+    CameraComponent:
+      Camera:
+        ProjectionType: 0
+        PerspectiveFOV: 45
+        PerspectiveNear: 0.100000001
+        PerspectiveFar: 1000
+        OrthographicSize: 10
+        OrthographicNear: -1
+        OrthographicFar: 1
+      Primary: true
+    AudioComponent:
+      StartEvent: ""
+      StartCommandID: 0
+      PlayOnAwake: false
+      StopIfEntityDestroyed: true
+      VolumeMultiplier: 1
+      PitchMultiplier: 1
+      AutoDestroy: false
+    AudioListenerComponent:
+      Active: true
+      ConeInnerAngle: 6.28318501
+      ConeOuterAngle: 6.28318501
+      ConeOuterGain: 0
+  - Entity: 5194207055420400121
+    TagComponent:
+      Tag: Cube
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [29.0349731, 1, 27.0930805]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+    AudioComponent:
+      StartEvent: Title
+      StartCommandID: 3942078319
+      PlayOnAwake: true
+      StopIfEntityDestroyed: true
+      VolumeMultiplier: 1
+      PitchMultiplier: 1
+      AutoDestroy: false
+  - Entity: 5322862914900914670
+    TagComponent:
+      Tag: Cube
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Position: [6.02822685, 8.95777532e-08, 3.06269908]
+      Rotation: [2.81984234, 1.57079649, 13.8154163]
+      Scale: [29.0349731, 1, 27.0930805]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 5435252968499570042
+    TagComponent:
+      Tag: Cube
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Position: [-6.74675083, 3.13537043e-06, 3.06269908]
+      Rotation: [2.81984234, 1.57079649, 13.8154163]
+      Scale: [29.0349731, 1, 27.0930805]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 6185268814392696587
+    TagComponent:
+      Tag: Cube
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Position: [-3.27818847, 2.84528232, 2.57295966]
+      Rotation: [0, 0, 0]
+      Scale: [0.75, 0.75, 0.75]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 18376327329218423629
+      Visible: true
+    RigidBodyComponent:
+      BodyType: 1
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: false
+      IsKinematic: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 8399340173773056087
+    TagComponent:
+      Tag: Text
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Position: [-6.16946983, 1.68043244, 1.82217312]
+      Rotation: [0, 1.57079637, 0]
+      Scale: [0.400000006, 0.400000006, 0.400000006]
+    TextComponent:
+      TextString: "Total Hazel Crash Count: 67\n"
+      FontHandle: 0
+      Color: [1, 1, 1, 1]
+      LineSpacing: 0
+      Kerning: 0
+      MaxWidth: 20.2999992
+  - Entity: 9925132850184223388
+    TagComponent:
+      Tag: Text
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Position: [-6.16946983, 2.95723033, 3.65251517]
+      Rotation: [0, 1.57079637, 0]
+      Scale: [0.400000006, 0.400000006, 0.400000006]
+    TextComponent:
+      TextString: Made by Emily "TTG" Banerjee in the Hazel Engine on Linux
+      FontHandle: 0
+      Color: [1, 1, 1, 1]
+      LineSpacing: 0
+      Kerning: 0
+      MaxWidth: 20.2999992
+  - Entity: 10355956584628705610
+    TagComponent:
+      Tag: Point Light
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Position: [0, 3.60985518, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    PointLightComponent:
+      Radiance: [1, 1, 1]
+      Intensity: 1
+      CastShadows: true
+      SoftShadows: true
+      MinRadius: 1
+      Radius: 10
+      LightSize: 0.5
+      Falloff: 1
+  - Entity: 11581864690778376402
+    TagComponent:
+      Tag: Empty Entity
+    Parent: 0
+    Children:
+      - Handle: 4829590272259936564
+      - Handle: 12136269600586216706
+    TransformComponent:
+      Position: [0, 2.69920683, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    ScriptComponent:
+      ClassHandle: 3599272874
+      Name: Taent.CharacterController
+      StoredFields:
+        - ID: 3560501422
+          Name: MouseSensitivity
+          Type: Float
+          Data: 0.100000001
+        - ID: 2003558992
+          Name: MovementForce
+          Type: Float
+          Data: 10
+        - ID: 1780452417
+          Name: JumpForce
+          Type: Float
+          Data: 7.5
+        - ID: 3920225572
+          Name: AnchorForce
+          Type: Float
+          Data: 100
+        - ID: 1229735599
+          Name: AnchorEpsilon
+          Type: Float
+          Data: 0.100000001
+        - ID: 2810876835
+          Name: AnchorMax
+          Type: Float
+          Data: 5
+        - ID: 4006364103
+          Name: MaxSpeed
+          Type: Float
+          Data: 5
+        - ID: 3136623662
+          Name: OnGroundEpsilonBuffer
+          Type: Float
+          Data: 0
+        - ID: 827014330
+          Name: PickupTorque
+          Type: Float
+          Data: 5
+        - ID: 184237348
+          Name: m_CameraEntity
+          Type: Entity
+          Data: 4829590272259936564
+        - ID: 2258221846
+          Name: m_Checkpoint
+          Type: Vector3
+          Data: [0, 0, 0]
+        - ID: 637220207
+          Name: m_Anchor
+          Type: Entity
+          Data: 4422330270561256776
+    RigidBodyComponent:
+      BodyType: 1
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: false
+      IsKinematic: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 56
+    CapsuleColliderComponent:
+      Radius: 0.5
+      HalfHeight: 0.5
+      Offset: [0, 0, 0]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 12136269600586216706
+    TagComponent:
+      Tag: Sprite
+    Parent: 11581864690778376402
+    Children:
+      []
+    TransformComponent:
+      Position: [0, 0, -0.200000003]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      Texture: 15834543368084603963
+      TilingFactor: 1
+      UVStart: [0, 0]
+      UVEnd: [1, 1]
+  - Entity: 12864643378522235638
+    TagComponent:
+      Tag: Cube
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Position: [0, -2.1867329e-06, -6.11454678]
+      Rotation: [-1.57079661, 0, 0]
+      Scale: [29.0349731, 1, 27.0930805]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 0
+      Visible: true
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 14542138185063246845
+    TagComponent:
+      Tag: Cube
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Position: [-1.6508646, 2.84521246, -3.13554668]
+      Rotation: [0, 0, 0]
+      Scale: [0.75, 0.75, 0.75]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 18376327329218423629
+      Visible: true
+    RigidBodyComponent:
+      BodyType: 1
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: false
+      IsKinematic: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+  - Entity: 14666623310569984350
+    TagComponent:
+      Tag: Text
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Position: [-6.16946983, 2.32597899, 3.30225134]
+      Rotation: [0, 1.57079637, 0]
+      Scale: [0.400000006, 0.400000006, 0.400000006]
+    TextComponent:
+      TextString: All sounds and graphics by me - for better or for worse
+      FontHandle: 0
+      Color: [1, 1, 1, 1]
+      LineSpacing: 0
+      Kerning: 0
+      MaxWidth: 20.2999992
+  - Entity: 15881552408539399997
+    TagComponent:
+      Tag: Text
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Position: [-6.20251274, 3.66900516, 2.7004528]
+      Rotation: [0, 1.57079637, 0]
+      Scale: [1, 1, 1]
+    TextComponent:
+      TextString: Thanks for Playing!
+      FontHandle: 0
+      Color: [1, 1, 1, 1]
+      LineSpacing: 0
+      Kerning: 0
+      MaxWidth: 10
+  - Entity: 16317676785532220999
+    TagComponent:
+      Tag: Cube
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Position: [-1.1923964, 3.98079729, 2.01993561]
+      Rotation: [0, 0, 0]
+      Scale: [0.75, 0.75, 0.75]
+    StaticMeshComponent:
+      AssetID: 11170142726520345255
+      MaterialTable:
+        0: 18376327329218423629
+      Visible: true
+    RigidBodyComponent:
+      BodyType: 1
+      LayerID: 0
+      EnableDynamicTypeChange: false
+      Mass: 1
+      LinearDrag: 0.00999999978
+      AngularDrag: 0.0500000007
+      DisableGravity: false
+      IsTrigger: false
+      IsKinematic: false
+      CollisionDetection: 0
+      InitialLinearVelocity: [0, 0, 0]
+      InitialAngularVelocity: [0, 0, 0]
+      MaxLinearVelocity: 500
+      MaxAngularVelocity: 50
+      LockedAxes: 0
+    BoxColliderComponent:
+      Offset: [0, 0, 0]
+      HalfSize: [0.5, 0.5, 0.5]
+      Friction: 0.5
+      Restitution: 0.150000006
+SceneAudio:
+  MasterReverb:
+    Pre-delay: 44
+    Room size: 0.49999994
+    Damping: 0.5
+    Width: 1

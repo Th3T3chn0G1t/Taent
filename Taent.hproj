@@ -1,0 +1,70 @@
+Project:
+  Name: Taent
+  AssetDirectory: Assets
+  AssetRegistry: Assets/AssetRegistry.hzr
+  AudioCommandsRegistryPath: Assets/AudioCommandsRegistry.hzr
+  MeshPath: Assets/Meshes
+  MeshSourcePath: Assets/Meshes/Source
+  AnimationPath: Assets/Animation
+  ScriptModulePath: Assets/Scripts/Binaries
+  DefaultNamespace: Taent
+  StartScene: Scenes/0.hscene
+  AutomaticallyReloadAssembly: true
+  AutoSave: true
+  AutoSaveInterval: 300
+  Audio:
+    FileStreamingDurationThreshold: 30
+  Physics:
+    FixedTimestep: 0.00499999989
+    Gravity: [0, -50, 0]
+    SolverPositionIterations: 20
+    SolverVelocityIterations: 20
+    MaxBodies: 1000
+    CaptureOnPlay: true
+    CaptureMethod: 1
+  Log:
+    Animation:
+      Enabled: true
+      LevelFilter: Error
+    AssetManager:
+      Enabled: true
+      LevelFilter: Fatal
+    Assimp:
+      Enabled: true
+      LevelFilter: Fatal
+    Audio:
+      Enabled: true
+      LevelFilter: Error
+    Core:
+      Enabled: true
+      LevelFilter: Trace
+    GLFW:
+      Enabled: true
+      LevelFilter: Trace
+    Memory:
+      Enabled: true
+      LevelFilter: Error
+    Mesh:
+      Enabled: true
+      LevelFilter: Error
+    Physics:
+      Enabled: true
+      LevelFilter: Trace
+    Renderer:
+      Enabled: true
+      LevelFilter: Error
+    Scene:
+      Enabled: true
+      LevelFilter: Trace
+    ScriptEngine:
+      Enabled: true
+      LevelFilter: Error
+    Sound Spatializer:
+      Enabled: true
+      LevelFilter: Trace
+    TIMER:
+      Enabled: true
+      LevelFilter: Trace
+    miniaudio:
+      Enabled: true
+      LevelFilter: Error
