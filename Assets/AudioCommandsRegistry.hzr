@@ -1,0 +1,51 @@
+Triggers:
+  - DebugName: Music
+    Actions:
+      - Type: Play
+        Target: 9285093028124638007
+        Context: GameObject
+  - DebugName: Talk
+    Actions:
+      - Type: Play
+        Target: 13112290847461804274
+        Context: GameObject
+  - DebugName: Gross
+    Actions:
+      - Type: Play
+        Target: 7196677847557844295
+        Context: GameObject
+  - DebugName: Delivery_1
+    Actions:
+      - Type: Play
+        Target: 3298081492213246593
+        Context: GameObject
+  - DebugName: Flower
+    Actions:
+      - Type: Play
+        Target: 305998227865240995
+        Context: GameObject
+  - DebugName: Art
+    Actions:
+      - Type: Play
+        Target: 2465437417316148417
+        Context: GameObject
+  - DebugName: Bell
+    Actions:
+      - Type: Play
+        Target: 3298081492213246593
+        Context: GameObject
+  - DebugName: Whispers
+    Actions:
+      - Type: Play
+        Target: 12090914636053398633
+        Context: GameObject
+  - DebugName: Title
+    Actions:
+      - Type: Play
+        Target: 1821196734803334895
+        Context: GameObject
+  - DebugName: Delivery_0
+    Actions:
+      - Type: Play
+        Target: 17433564804465803768
+        Context: GameObject
